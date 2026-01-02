@@ -1,0 +1,1462 @@
+incident_id,attack_type,severity,system,date,status
+1,SQL Injection,Low,Database,2022-01-01,Resolved
+2,Malware,Low,Database,2022-01-02,Resolved
+3,Ransomware,Low,Network,2022-01-03,Resolved
+4,Ransomware,Medium,Web Server,2022-01-04,Resolved
+5,Ransomware,Critical,Web Server,2022-01-05,Open
+6,Phishing,High,Database,2022-01-06,Resolved
+7,Ransomware,Medium,Database,2022-01-07,Open
+8,DDoS,Critical,Network,2022-01-08,Open
+9,SQL Injection,Low,Web Server,2022-01-09,Resolved
+10,Malware,High,Network,2022-01-10,Resolved
+11,Malware,Low,Database,2022-01-11,Resolved
+12,SQL Injection,High,Database,2022-01-12,Resolved
+13,DDoS,Critical,Network,2022-01-13,Resolved
+14,Phishing,Medium,Web Server,2022-01-14,Open
+15,Malware,Low,Database,2022-01-15,Open
+16,Phishing,Medium,Database,2022-01-16,Resolved
+17,Phishing,Critical,Web Server,2022-01-17,Open
+18,Malware,Critical,Database,2022-01-18,Open
+19,Phishing,Critical,Web Server,2022-01-19,Resolved
+20,SQL Injection,Medium,Web Server,2022-01-20,Open
+21,Ransomware,Medium,Database,2022-01-21,Open
+22,Malware,High,Network,2022-01-22,Open
+23,Ransomware,Medium,Database,2022-01-23,Open
+24,Malware,Medium,Database,2022-01-24,Resolved
+25,DDoS,Critical,Database,2022-01-25,Resolved
+26,Ransomware,High,Application Server,2022-01-26,Resolved
+27,Malware,Medium,Database,2022-01-27,Resolved
+28,Phishing,Medium,Network,2022-01-28,Resolved
+29,Ransomware,Critical,Network,2022-01-29,Open
+30,Ransomware,Medium,Network,2022-01-30,Resolved
+31,Ransomware,Critical,Web Server,2022-01-31,Open
+32,Malware,High,Application Server,2022-02-01,Open
+33,Phishing,Critical,Application Server,2022-02-02,Resolved
+34,Phishing,Critical,Network,2022-02-03,Resolved
+35,Phishing,High,Application Server,2022-02-04,Resolved
+36,Malware,Low,Web Server,2022-02-05,Resolved
+37,DDoS,Critical,Database,2022-02-06,Resolved
+38,SQL Injection,Medium,Network,2022-02-07,Open
+39,Ransomware,Critical,Application Server,2022-02-08,Open
+40,Ransomware,High,Network,2022-02-09,Open
+41,DDoS,Medium,Network,2022-02-10,Resolved
+42,SQL Injection,High,Network,2022-02-11,Open
+43,DDoS,Critical,Network,2022-02-12,Resolved
+44,Malware,High,Database,2022-02-13,Open
+45,Malware,High,Network,2022-02-14,Resolved
+46,SQL Injection,Low,Application Server,2022-02-15,Open
+47,Malware,Critical,Application Server,2022-02-16,Resolved
+48,SQL Injection,Critical,Web Server,2022-02-17,Resolved
+49,Phishing,Critical,Web Server,2022-02-18,Open
+50,SQL Injection,Critical,Application Server,2022-02-19,Open
+51,Phishing,Medium,Network,2022-02-20,Resolved
+52,DDoS,High,Application Server,2022-02-21,Open
+53,DDoS,Critical,Web Server,2022-02-22,Open
+54,Malware,Medium,Network,2022-02-23,Open
+55,Phishing,Critical,Application Server,2022-02-24,Open
+56,Phishing,High,Database,2022-02-25,Resolved
+57,Phishing,Critical,Application Server,2022-02-26,Open
+58,Phishing,Medium,Web Server,2022-02-27,Resolved
+59,Ransomware,Medium,Application Server,2022-02-28,Open
+60,Ransomware,High,Network,2022-03-01,Resolved
+61,DDoS,Critical,Application Server,2022-03-02,Open
+62,Ransomware,Medium,Web Server,2022-03-03,Open
+63,Malware,Low,Application Server,2022-03-04,Resolved
+64,Ransomware,Critical,Network,2022-03-05,Open
+65,SQL Injection,Low,Application Server,2022-03-06,Open
+66,Phishing,Medium,Web Server,2022-03-07,Resolved
+67,DDoS,Medium,Database,2022-03-08,Resolved
+68,SQL Injection,High,Application Server,2022-03-09,Resolved
+69,Ransomware,High,Application Server,2022-03-10,Resolved
+70,SQL Injection,Critical,Web Server,2022-03-11,Resolved
+71,SQL Injection,Medium,Web Server,2022-03-12,Resolved
+72,SQL Injection,Medium,Application Server,2022-03-13,Open
+73,Ransomware,Medium,Web Server,2022-03-14,Open
+74,SQL Injection,Medium,Web Server,2022-03-15,Open
+75,SQL Injection,Low,Network,2022-03-16,Open
+76,SQL Injection,Medium,Application Server,2022-03-17,Open
+77,Malware,High,Application Server,2022-03-18,Open
+78,SQL Injection,Critical,Database,2022-03-19,Open
+79,Ransomware,Critical,Database,2022-03-20,Resolved
+80,DDoS,Critical,Web Server,2022-03-21,Open
+81,Malware,Low,Web Server,2022-03-22,Resolved
+82,Phishing,Medium,Application Server,2022-03-23,Open
+83,Phishing,Critical,Database,2022-03-24,Resolved
+84,Ransomware,High,Application Server,2022-03-25,Open
+85,Malware,Low,Application Server,2022-03-26,Open
+86,Malware,Medium,Application Server,2022-03-27,Open
+87,Phishing,Medium,Database,2022-03-28,Resolved
+88,DDoS,Medium,Application Server,2022-03-29,Open
+89,SQL Injection,Medium,Database,2022-03-30,Open
+90,DDoS,Low,Database,2022-03-31,Resolved
+91,Malware,High,Web Server,2022-04-01,Open
+92,Ransomware,Medium,Application Server,2022-04-02,Open
+93,DDoS,Low,Database,2022-04-03,Open
+94,DDoS,Low,Web Server,2022-04-04,Open
+95,Malware,High,Web Server,2022-04-05,Open
+96,Phishing,Low,Database,2022-04-06,Resolved
+97,Malware,Low,Network,2022-04-07,Open
+98,DDoS,Critical,Web Server,2022-04-08,Open
+99,DDoS,Critical,Database,2022-04-09,Open
+100,Ransomware,High,Web Server,2022-04-10,Open
+101,DDoS,Critical,Network,2022-04-11,Resolved
+102,Ransomware,Low,Application Server,2022-04-12,Resolved
+103,DDoS,Low,Database,2022-04-13,Resolved
+104,Phishing,High,Application Server,2022-04-14,Open
+105,DDoS,Low,Web Server,2022-04-15,Resolved
+106,Ransomware,High,Network,2022-04-16,Resolved
+107,Ransomware,Critical,Network,2022-04-17,Open
+108,Ransomware,Critical,Web Server,2022-04-18,Open
+109,DDoS,Medium,Database,2022-04-19,Resolved
+110,Ransomware,Critical,Database,2022-04-20,Open
+111,SQL Injection,Medium,Web Server,2022-04-21,Resolved
+112,Phishing,Medium,Network,2022-04-22,Resolved
+113,DDoS,Medium,Application Server,2022-04-23,Resolved
+114,Ransomware,Low,Network,2022-04-24,Resolved
+115,Phishing,Medium,Network,2022-04-25,Open
+116,DDoS,Critical,Network,2022-04-26,Open
+117,Phishing,High,Web Server,2022-04-27,Open
+118,SQL Injection,Critical,Application Server,2022-04-28,Open
+119,DDoS,High,Network,2022-04-29,Resolved
+120,Ransomware,Critical,Web Server,2022-04-30,Resolved
+121,Malware,High,Database,2022-05-01,Resolved
+122,Ransomware,Critical,Database,2022-05-02,Resolved
+123,DDoS,High,Network,2022-05-03,Resolved
+124,Ransomware,Medium,Network,2022-05-04,Resolved
+125,Malware,High,Application Server,2022-05-05,Open
+126,Malware,Medium,Network,2022-05-06,Resolved
+127,Malware,Critical,Database,2022-05-07,Resolved
+128,Ransomware,High,Web Server,2022-05-08,Open
+129,DDoS,High,Web Server,2022-05-09,Open
+130,Ransomware,Critical,Application Server,2022-05-10,Resolved
+131,Malware,Medium,Web Server,2022-05-11,Open
+132,SQL Injection,Medium,Application Server,2022-05-12,Resolved
+133,Malware,Low,Network,2022-05-13,Open
+134,Malware,Low,Web Server,2022-05-14,Open
+135,DDoS,Low,Application Server,2022-05-15,Open
+136,Ransomware,High,Application Server,2022-05-16,Open
+137,DDoS,High,Network,2022-05-17,Open
+138,Ransomware,High,Database,2022-05-18,Open
+139,Malware,Critical,Web Server,2022-05-19,Open
+140,Malware,Low,Network,2022-05-20,Open
+141,Malware,Critical,Web Server,2022-05-21,Open
+142,Ransomware,Low,Database,2022-05-22,Resolved
+143,Malware,Low,Web Server,2022-05-23,Resolved
+144,DDoS,High,Application Server,2022-05-24,Resolved
+145,DDoS,Medium,Web Server,2022-05-25,Open
+146,Malware,Low,Application Server,2022-05-26,Resolved
+147,SQL Injection,Medium,Database,2022-05-27,Open
+148,Ransomware,Critical,Application Server,2022-05-28,Open
+149,SQL Injection,High,Network,2022-05-29,Open
+150,Malware,Low,Application Server,2022-05-30,Open
+151,SQL Injection,High,Application Server,2022-05-31,Resolved
+152,Ransomware,Critical,Network,2022-06-01,Open
+153,Ransomware,Medium,Application Server,2022-06-02,Open
+154,SQL Injection,High,Application Server,2022-06-03,Resolved
+155,Phishing,High,Network,2022-06-04,Open
+156,Ransomware,Low,Application Server,2022-06-05,Resolved
+157,Malware,Medium,Application Server,2022-06-06,Open
+158,Malware,Critical,Web Server,2022-06-07,Open
+159,Malware,Low,Web Server,2022-06-08,Open
+160,Phishing,High,Application Server,2022-06-09,Open
+161,Malware,High,Network,2022-06-10,Open
+162,SQL Injection,Medium,Network,2022-06-11,Resolved
+163,Phishing,Critical,Web Server,2022-06-12,Open
+164,Ransomware,Critical,Network,2022-06-13,Resolved
+165,Phishing,High,Network,2022-06-14,Resolved
+166,Malware,Critical,Web Server,2022-06-15,Resolved
+167,Malware,Low,Database,2022-06-16,Resolved
+168,SQL Injection,Medium,Web Server,2022-06-17,Resolved
+169,Ransomware,High,Network,2022-06-18,Resolved
+170,Ransomware,Critical,Application Server,2022-06-19,Open
+171,Phishing,Critical,Network,2022-06-20,Resolved
+172,Malware,Low,Application Server,2022-06-21,Open
+173,Malware,Critical,Application Server,2022-06-22,Open
+174,Phishing,Low,Application Server,2022-06-23,Open
+175,DDoS,Medium,Database,2022-06-24,Resolved
+176,Malware,High,Database,2022-06-25,Open
+177,Ransomware,Low,Web Server,2022-06-26,Open
+178,Phishing,Critical,Database,2022-06-27,Resolved
+179,Phishing,Critical,Application Server,2022-06-28,Resolved
+180,SQL Injection,Medium,Network,2022-06-29,Resolved
+181,Malware,Low,Network,2022-06-30,Open
+182,Malware,High,Application Server,2022-07-01,Resolved
+183,Ransomware,Critical,Network,2022-07-02,Resolved
+184,DDoS,Low,Network,2022-07-03,Resolved
+185,Ransomware,Critical,Database,2022-07-04,Open
+186,DDoS,High,Application Server,2022-07-05,Open
+187,SQL Injection,Low,Network,2022-07-06,Resolved
+188,Ransomware,Critical,Network,2022-07-07,Resolved
+189,Ransomware,High,Network,2022-07-08,Open
+190,Malware,Low,Application Server,2022-07-09,Open
+191,Ransomware,Low,Application Server,2022-07-10,Resolved
+192,Malware,Medium,Web Server,2022-07-11,Open
+193,SQL Injection,High,Web Server,2022-07-12,Open
+194,DDoS,Low,Network,2022-07-13,Resolved
+195,Ransomware,Medium,Database,2022-07-14,Resolved
+196,SQL Injection,Low,Database,2022-07-15,Open
+197,Malware,Critical,Application Server,2022-07-16,Open
+198,DDoS,Medium,Application Server,2022-07-17,Resolved
+199,Ransomware,Low,Web Server,2022-07-18,Resolved
+200,Ransomware,Critical,Web Server,2022-07-19,Open
+201,Phishing,Critical,Application Server,2022-07-20,Resolved
+202,Ransomware,Critical,Database,2022-07-21,Resolved
+203,SQL Injection,Medium,Web Server,2022-07-22,Open
+204,Ransomware,Critical,Web Server,2022-07-23,Resolved
+205,Ransomware,High,Network,2022-07-24,Resolved
+206,Phishing,Low,Database,2022-07-25,Resolved
+207,Phishing,High,Network,2022-07-26,Open
+208,Phishing,Critical,Web Server,2022-07-27,Resolved
+209,Ransomware,Critical,Web Server,2022-07-28,Resolved
+210,DDoS,High,Web Server,2022-07-29,Resolved
+211,DDoS,Medium,Web Server,2022-07-30,Resolved
+212,SQL Injection,Critical,Application Server,2022-07-31,Resolved
+213,Ransomware,Critical,Database,2022-08-01,Resolved
+214,Phishing,High,Database,2022-08-02,Resolved
+215,DDoS,Critical,Database,2022-08-03,Resolved
+216,Ransomware,Critical,Database,2022-08-04,Open
+217,Phishing,Medium,Network,2022-08-05,Resolved
+218,SQL Injection,Medium,Network,2022-08-06,Resolved
+219,DDoS,Medium,Network,2022-08-07,Resolved
+220,DDoS,Medium,Web Server,2022-08-08,Resolved
+221,Malware,Medium,Application Server,2022-08-09,Resolved
+222,Phishing,Critical,Database,2022-08-10,Resolved
+223,Malware,Low,Application Server,2022-08-11,Open
+224,SQL Injection,Critical,Database,2022-08-12,Open
+225,Malware,Critical,Database,2022-08-13,Open
+226,Ransomware,Low,Network,2022-08-14,Resolved
+227,DDoS,High,Web Server,2022-08-15,Open
+228,Malware,Low,Web Server,2022-08-16,Resolved
+229,Malware,Medium,Application Server,2022-08-17,Resolved
+230,Phishing,Critical,Web Server,2022-08-18,Open
+231,Phishing,Medium,Network,2022-08-19,Resolved
+232,Malware,Low,Database,2022-08-20,Open
+233,Ransomware,High,Application Server,2022-08-21,Open
+234,Malware,High,Network,2022-08-22,Open
+235,Ransomware,Critical,Database,2022-08-23,Open
+236,Malware,Low,Web Server,2022-08-24,Open
+237,SQL Injection,Medium,Application Server,2022-08-25,Open
+238,SQL Injection,Medium,Application Server,2022-08-26,Open
+239,Malware,High,Database,2022-08-27,Resolved
+240,Phishing,Critical,Web Server,2022-08-28,Resolved
+241,Ransomware,Low,Application Server,2022-08-29,Open
+242,SQL Injection,Medium,Web Server,2022-08-30,Open
+243,Ransomware,High,Web Server,2022-08-31,Resolved
+244,DDoS,Critical,Database,2022-09-01,Open
+245,Phishing,High,Network,2022-09-02,Open
+246,Phishing,Critical,Web Server,2022-09-03,Resolved
+247,DDoS,Low,Application Server,2022-09-04,Open
+248,Phishing,High,Application Server,2022-09-05,Resolved
+249,SQL Injection,Medium,Application Server,2022-09-06,Resolved
+250,DDoS,Critical,Application Server,2022-09-07,Resolved
+251,SQL Injection,High,Database,2022-09-08,Resolved
+252,SQL Injection,Critical,Web Server,2022-09-09,Open
+253,DDoS,High,Database,2022-09-10,Open
+254,Ransomware,High,Network,2022-09-11,Open
+255,Ransomware,Low,Web Server,2022-09-12,Resolved
+256,Phishing,Medium,Web Server,2022-09-13,Resolved
+257,DDoS,High,Web Server,2022-09-14,Resolved
+258,SQL Injection,Low,Network,2022-09-15,Resolved
+259,Ransomware,Critical,Database,2022-09-16,Open
+260,Ransomware,Critical,Web Server,2022-09-17,Open
+261,Phishing,High,Web Server,2022-09-18,Open
+262,Phishing,Medium,Application Server,2022-09-19,Open
+263,Phishing,Critical,Network,2022-09-20,Resolved
+264,Phishing,High,Application Server,2022-09-21,Resolved
+265,DDoS,Critical,Application Server,2022-09-22,Open
+266,Malware,Low,Database,2022-09-23,Resolved
+267,Ransomware,High,Application Server,2022-09-24,Open
+268,Phishing,High,Network,2022-09-25,Resolved
+269,SQL Injection,High,Network,2022-09-26,Resolved
+270,Ransomware,Low,Web Server,2022-09-27,Resolved
+271,Phishing,High,Database,2022-09-28,Resolved
+272,Phishing,High,Web Server,2022-09-29,Resolved
+273,DDoS,Low,Application Server,2022-09-30,Open
+274,Malware,Critical,Web Server,2022-10-01,Resolved
+275,Malware,Low,Network,2022-10-02,Resolved
+276,DDoS,Medium,Network,2022-10-03,Open
+277,SQL Injection,Low,Application Server,2022-10-04,Open
+278,Malware,Critical,Web Server,2022-10-05,Open
+279,SQL Injection,High,Network,2022-10-06,Resolved
+280,Ransomware,High,Network,2022-10-07,Resolved
+281,Ransomware,Low,Database,2022-10-08,Open
+282,Malware,Medium,Web Server,2022-10-09,Open
+283,Malware,Low,Web Server,2022-10-10,Resolved
+284,Ransomware,Medium,Database,2022-10-11,Resolved
+285,Ransomware,Low,Network,2022-10-12,Resolved
+286,Malware,Medium,Database,2022-10-13,Resolved
+287,Ransomware,Medium,Database,2022-10-14,Resolved
+288,Malware,High,Database,2022-10-15,Open
+289,DDoS,Medium,Network,2022-10-16,Open
+290,Phishing,High,Application Server,2022-10-17,Open
+291,Malware,Low,Application Server,2022-10-18,Resolved
+292,SQL Injection,Low,Application Server,2022-10-19,Resolved
+293,Malware,Low,Database,2022-10-20,Resolved
+294,Ransomware,Low,Application Server,2022-10-21,Resolved
+295,SQL Injection,Low,Web Server,2022-10-22,Resolved
+296,SQL Injection,High,Application Server,2022-10-23,Open
+297,Phishing,Low,Network,2022-10-24,Open
+298,Malware,Medium,Database,2022-10-25,Resolved
+299,DDoS,Critical,Database,2022-10-26,Resolved
+300,SQL Injection,High,Application Server,2022-10-27,Open
+301,SQL Injection,Medium,Database,2022-10-28,Open
+302,DDoS,Critical,Database,2022-10-29,Resolved
+303,SQL Injection,Critical,Database,2022-10-30,Open
+304,Ransomware,High,Database,2022-10-31,Resolved
+305,DDoS,Medium,Web Server,2022-11-01,Resolved
+306,Ransomware,Critical,Network,2022-11-02,Open
+307,Malware,Critical,Web Server,2022-11-03,Resolved
+308,Malware,High,Application Server,2022-11-04,Resolved
+309,Malware,Low,Application Server,2022-11-05,Resolved
+310,Ransomware,Critical,Database,2022-11-06,Open
+311,SQL Injection,High,Database,2022-11-07,Open
+312,SQL Injection,High,Application Server,2022-11-08,Resolved
+313,DDoS,Medium,Database,2022-11-09,Open
+314,DDoS,High,Web Server,2022-11-10,Resolved
+315,SQL Injection,High,Database,2022-11-11,Resolved
+316,Phishing,Low,Web Server,2022-11-12,Open
+317,Ransomware,Critical,Network,2022-11-13,Resolved
+318,Ransomware,Medium,Web Server,2022-11-14,Open
+319,Ransomware,High,Application Server,2022-11-15,Resolved
+320,Phishing,Medium,Application Server,2022-11-16,Resolved
+321,DDoS,Critical,Application Server,2022-11-17,Resolved
+322,DDoS,High,Web Server,2022-11-18,Resolved
+323,Ransomware,High,Network,2022-11-19,Open
+324,DDoS,Medium,Application Server,2022-11-20,Resolved
+325,Ransomware,Low,Database,2022-11-21,Open
+326,SQL Injection,Critical,Web Server,2022-11-22,Open
+327,SQL Injection,Critical,Network,2022-11-23,Open
+328,DDoS,Critical,Web Server,2022-11-24,Open
+329,Phishing,High,Web Server,2022-11-25,Resolved
+330,DDoS,High,Network,2022-11-26,Resolved
+331,Malware,High,Web Server,2022-11-27,Open
+332,Ransomware,Medium,Application Server,2022-11-28,Open
+333,Malware,Critical,Network,2022-11-29,Open
+334,DDoS,Critical,Web Server,2022-11-30,Open
+335,SQL Injection,Critical,Database,2022-12-01,Open
+336,Ransomware,Low,Network,2022-12-02,Resolved
+337,DDoS,High,Database,2022-12-03,Open
+338,Phishing,Critical,Web Server,2022-12-04,Open
+339,DDoS,Critical,Database,2022-12-05,Resolved
+340,Phishing,High,Network,2022-12-06,Resolved
+341,SQL Injection,High,Web Server,2022-12-07,Open
+342,Phishing,Critical,Network,2022-12-08,Open
+343,Malware,Medium,Web Server,2022-12-09,Open
+344,Malware,Medium,Application Server,2022-12-10,Resolved
+345,Malware,Medium,Application Server,2022-12-11,Resolved
+346,Malware,Medium,Application Server,2022-12-12,Open
+347,Malware,Low,Database,2022-12-13,Resolved
+348,Phishing,Medium,Database,2022-12-14,Open
+349,Malware,Critical,Application Server,2022-12-15,Resolved
+350,Ransomware,Critical,Network,2022-12-16,Resolved
+351,Phishing,Critical,Network,2022-12-17,Open
+352,SQL Injection,Medium,Web Server,2022-12-18,Open
+353,Phishing,High,Network,2022-12-19,Resolved
+354,DDoS,Critical,Network,2022-12-20,Open
+355,SQL Injection,Medium,Database,2022-12-21,Resolved
+356,Malware,Low,Network,2022-12-22,Resolved
+357,Malware,Low,Network,2022-12-23,Open
+358,DDoS,Critical,Web Server,2022-12-24,Resolved
+359,Malware,High,Application Server,2022-12-25,Resolved
+360,SQL Injection,Low,Application Server,2022-12-26,Resolved
+361,SQL Injection,Medium,Database,2022-12-27,Open
+362,SQL Injection,Medium,Database,2022-12-28,Resolved
+363,Phishing,Low,Web Server,2022-12-29,Open
+364,Phishing,Critical,Database,2022-12-30,Open
+365,SQL Injection,Critical,Web Server,2022-12-31,Resolved
+366,Phishing,Low,Application Server,2023-01-01,Open
+367,Phishing,Medium,Application Server,2023-01-02,Open
+368,Ransomware,High,Web Server,2023-01-03,Open
+369,Phishing,Medium,Application Server,2023-01-04,Resolved
+370,Ransomware,High,Network,2023-01-05,Open
+371,Ransomware,High,Network,2023-01-06,Open
+372,Phishing,Low,Application Server,2023-01-07,Resolved
+373,Phishing,Critical,Web Server,2023-01-08,Open
+374,Phishing,High,Network,2023-01-09,Open
+375,Malware,Medium,Network,2023-01-10,Open
+376,Ransomware,Critical,Application Server,2023-01-11,Resolved
+377,Malware,Critical,Database,2023-01-12,Open
+378,SQL Injection,Medium,Database,2023-01-13,Open
+379,Phishing,Low,Application Server,2023-01-14,Open
+380,SQL Injection,Critical,Application Server,2023-01-15,Resolved
+381,Malware,High,Network,2023-01-16,Resolved
+382,Ransomware,Medium,Web Server,2023-01-17,Resolved
+383,DDoS,High,Web Server,2023-01-18,Open
+384,Phishing,Medium,Network,2023-01-19,Resolved
+385,SQL Injection,Medium,Network,2023-01-20,Open
+386,SQL Injection,Critical,Web Server,2023-01-21,Open
+387,SQL Injection,Medium,Database,2023-01-22,Resolved
+388,Malware,Critical,Database,2023-01-23,Open
+389,Malware,Medium,Web Server,2023-01-24,Open
+390,DDoS,Critical,Application Server,2023-01-25,Open
+391,Malware,Critical,Application Server,2023-01-26,Open
+392,Ransomware,Low,Network,2023-01-27,Resolved
+393,Ransomware,Critical,Database,2023-01-28,Open
+394,SQL Injection,Critical,Application Server,2023-01-29,Open
+395,Phishing,Critical,Application Server,2023-01-30,Open
+396,SQL Injection,Low,Application Server,2023-01-31,Open
+397,Ransomware,High,Web Server,2023-02-01,Open
+398,Ransomware,High,Network,2023-02-02,Open
+399,Ransomware,Low,Network,2023-02-03,Resolved
+400,SQL Injection,Critical,Database,2023-02-04,Open
+401,DDoS,Critical,Application Server,2023-02-05,Open
+402,Phishing,Medium,Network,2023-02-06,Open
+403,DDoS,High,Web Server,2023-02-07,Open
+404,DDoS,Critical,Web Server,2023-02-08,Resolved
+405,Phishing,Critical,Web Server,2023-02-09,Resolved
+406,Ransomware,High,Application Server,2023-02-10,Resolved
+407,Ransomware,Critical,Web Server,2023-02-11,Open
+408,SQL Injection,Low,Application Server,2023-02-12,Resolved
+409,SQL Injection,Critical,Network,2023-02-13,Open
+410,DDoS,Critical,Web Server,2023-02-14,Open
+411,Phishing,High,Application Server,2023-02-15,Resolved
+412,Phishing,Low,Database,2023-02-16,Open
+413,Malware,Medium,Network,2023-02-17,Open
+414,Malware,High,Network,2023-02-18,Open
+415,DDoS,Medium,Application Server,2023-02-19,Resolved
+416,SQL Injection,Medium,Application Server,2023-02-20,Open
+417,Ransomware,Low,Network,2023-02-21,Open
+418,Ransomware,Medium,Application Server,2023-02-22,Open
+419,DDoS,Low,Web Server,2023-02-23,Resolved
+420,Phishing,Critical,Application Server,2023-02-24,Open
+421,Malware,Low,Network,2023-02-25,Resolved
+422,SQL Injection,High,Web Server,2023-02-26,Resolved
+423,Phishing,Medium,Application Server,2023-02-27,Open
+424,SQL Injection,Low,Web Server,2023-02-28,Resolved
+425,SQL Injection,High,Application Server,2023-03-01,Resolved
+426,DDoS,Low,Network,2023-03-02,Resolved
+427,Malware,Medium,Network,2023-03-03,Open
+428,Malware,Medium,Web Server,2023-03-04,Resolved
+429,Ransomware,High,Network,2023-03-05,Open
+430,Phishing,High,Network,2023-03-06,Resolved
+431,Phishing,High,Web Server,2023-03-07,Resolved
+432,Malware,High,Web Server,2023-03-08,Open
+433,SQL Injection,High,Network,2023-03-09,Resolved
+434,Ransomware,Medium,Web Server,2023-03-10,Resolved
+435,Ransomware,Critical,Web Server,2023-03-11,Open
+436,SQL Injection,High,Application Server,2023-03-12,Resolved
+437,Ransomware,Critical,Database,2023-03-13,Resolved
+438,SQL Injection,High,Network,2023-03-14,Resolved
+439,Ransomware,High,Network,2023-03-15,Open
+440,Malware,High,Application Server,2023-03-16,Resolved
+441,Ransomware,Medium,Network,2023-03-17,Open
+442,Ransomware,Critical,Network,2023-03-18,Open
+443,Phishing,Medium,Network,2023-03-19,Resolved
+444,Ransomware,Low,Web Server,2023-03-20,Resolved
+445,SQL Injection,High,Network,2023-03-21,Resolved
+446,Malware,High,Network,2023-03-22,Resolved
+447,Ransomware,Critical,Database,2023-03-23,Resolved
+448,Malware,Medium,Application Server,2023-03-24,Open
+449,Malware,Medium,Application Server,2023-03-25,Resolved
+450,Ransomware,Medium,Web Server,2023-03-26,Resolved
+451,Phishing,High,Network,2023-03-27,Open
+452,DDoS,Critical,Network,2023-03-28,Resolved
+453,Ransomware,Low,Network,2023-03-29,Open
+454,DDoS,Low,Network,2023-03-30,Resolved
+455,Ransomware,Medium,Web Server,2023-03-31,Open
+456,Malware,Critical,Database,2023-04-01,Open
+457,Ransomware,Medium,Application Server,2023-04-02,Open
+458,DDoS,Medium,Database,2023-04-03,Resolved
+459,Malware,Medium,Network,2023-04-04,Resolved
+460,Ransomware,Low,Database,2023-04-05,Resolved
+461,Phishing,Low,Database,2023-04-06,Open
+462,SQL Injection,Medium,Application Server,2023-04-07,Open
+463,Ransomware,Critical,Database,2023-04-08,Open
+464,Phishing,Low,Database,2023-04-09,Open
+465,DDoS,Medium,Database,2023-04-10,Open
+466,Phishing,Low,Web Server,2023-04-11,Open
+467,SQL Injection,High,Web Server,2023-04-12,Resolved
+468,Phishing,High,Web Server,2023-04-13,Open
+469,Ransomware,Low,Database,2023-04-14,Open
+470,Phishing,Medium,Web Server,2023-04-15,Resolved
+471,Ransomware,Low,Database,2023-04-16,Resolved
+472,DDoS,Critical,Database,2023-04-17,Resolved
+473,SQL Injection,Medium,Web Server,2023-04-18,Resolved
+474,Phishing,Medium,Network,2023-04-19,Resolved
+475,SQL Injection,Medium,Database,2023-04-20,Resolved
+476,Phishing,Medium,Database,2023-04-21,Open
+477,SQL Injection,Critical,Application Server,2023-04-22,Resolved
+478,Phishing,Low,Web Server,2023-04-23,Resolved
+479,DDoS,Low,Application Server,2023-04-24,Open
+480,DDoS,High,Database,2023-04-25,Open
+481,Ransomware,Medium,Application Server,2023-04-26,Resolved
+482,Phishing,High,Database,2023-04-27,Open
+483,DDoS,Critical,Application Server,2023-04-28,Open
+484,DDoS,Low,Database,2023-04-29,Resolved
+485,SQL Injection,Low,Web Server,2023-04-30,Open
+486,DDoS,Medium,Application Server,2023-05-01,Open
+487,DDoS,Low,Application Server,2023-05-02,Resolved
+488,Ransomware,Critical,Network,2023-05-03,Resolved
+489,Malware,Critical,Network,2023-05-04,Resolved
+490,SQL Injection,Medium,Web Server,2023-05-05,Resolved
+491,DDoS,High,Database,2023-05-06,Open
+492,Malware,Medium,Network,2023-05-07,Open
+493,Malware,Critical,Web Server,2023-05-08,Resolved
+494,DDoS,Low,Web Server,2023-05-09,Open
+495,Ransomware,Low,Database,2023-05-10,Open
+496,Phishing,Low,Database,2023-05-11,Open
+497,Ransomware,Critical,Application Server,2023-05-12,Resolved
+498,DDoS,High,Application Server,2023-05-13,Resolved
+499,SQL Injection,Medium,Web Server,2023-05-14,Open
+500,Phishing,High,Web Server,2023-05-15,Open
+501,Phishing,Low,Web Server,2023-05-16,Open
+502,DDoS,Medium,Application Server,2023-05-17,Open
+503,DDoS,Critical,Network,2023-05-18,Resolved
+504,SQL Injection,Critical,Database,2023-05-19,Open
+505,Ransomware,High,Web Server,2023-05-20,Open
+506,SQL Injection,Medium,Application Server,2023-05-21,Resolved
+507,DDoS,Low,Application Server,2023-05-22,Open
+508,SQL Injection,High,Database,2023-05-23,Open
+509,DDoS,Critical,Network,2023-05-24,Open
+510,Phishing,Medium,Web Server,2023-05-25,Open
+511,SQL Injection,Medium,Database,2023-05-26,Resolved
+512,Malware,Critical,Application Server,2023-05-27,Open
+513,Phishing,Low,Network,2023-05-28,Resolved
+514,Malware,Low,Web Server,2023-05-29,Open
+515,DDoS,Critical,Application Server,2023-05-30,Resolved
+516,Malware,Critical,Application Server,2023-05-31,Open
+517,Ransomware,Low,Database,2023-06-01,Resolved
+518,DDoS,High,Application Server,2023-06-02,Open
+519,Malware,High,Web Server,2023-06-03,Open
+520,DDoS,Medium,Application Server,2023-06-04,Open
+521,Ransomware,Medium,Database,2023-06-05,Open
+522,Malware,High,Database,2023-06-06,Open
+523,Malware,Medium,Network,2023-06-07,Resolved
+524,Phishing,High,Network,2023-06-08,Resolved
+525,Malware,Medium,Application Server,2023-06-09,Resolved
+526,Malware,High,Application Server,2023-06-10,Resolved
+527,DDoS,Medium,Application Server,2023-06-11,Open
+528,Ransomware,Medium,Network,2023-06-12,Open
+529,SQL Injection,High,Network,2023-06-13,Resolved
+530,Ransomware,Low,Application Server,2023-06-14,Open
+531,Ransomware,High,Network,2023-06-15,Resolved
+532,Malware,High,Database,2023-06-16,Open
+533,SQL Injection,Critical,Network,2023-06-17,Open
+534,SQL Injection,Low,Database,2023-06-18,Resolved
+535,Ransomware,Medium,Application Server,2023-06-19,Open
+536,DDoS,Low,Database,2023-06-20,Open
+537,SQL Injection,Low,Web Server,2023-06-21,Open
+538,SQL Injection,Low,Application Server,2023-06-22,Resolved
+539,Ransomware,Critical,Database,2023-06-23,Open
+540,Phishing,Critical,Database,2023-06-24,Resolved
+541,SQL Injection,Medium,Network,2023-06-25,Resolved
+542,Ransomware,High,Database,2023-06-26,Resolved
+543,Phishing,Low,Network,2023-06-27,Resolved
+544,Ransomware,Medium,Database,2023-06-28,Resolved
+545,Ransomware,Medium,Database,2023-06-29,Open
+546,DDoS,Critical,Network,2023-06-30,Open
+547,Malware,High,Web Server,2023-07-01,Open
+548,Phishing,High,Database,2023-07-02,Open
+549,Malware,Critical,Database,2023-07-03,Open
+550,Phishing,Low,Application Server,2023-07-04,Resolved
+551,Phishing,Critical,Network,2023-07-05,Open
+552,SQL Injection,Medium,Network,2023-07-06,Open
+553,DDoS,Critical,Web Server,2023-07-07,Resolved
+554,DDoS,High,Application Server,2023-07-08,Open
+555,Ransomware,Low,Web Server,2023-07-09,Resolved
+556,Malware,Medium,Web Server,2023-07-10,Resolved
+557,Ransomware,Medium,Database,2023-07-11,Open
+558,DDoS,High,Database,2023-07-12,Open
+559,Ransomware,Critical,Network,2023-07-13,Open
+560,DDoS,Medium,Application Server,2023-07-14,Resolved
+561,DDoS,Critical,Network,2023-07-15,Resolved
+562,Phishing,Medium,Application Server,2023-07-16,Resolved
+563,Ransomware,High,Network,2023-07-17,Open
+564,Phishing,Medium,Web Server,2023-07-18,Resolved
+565,Ransomware,Medium,Web Server,2023-07-19,Resolved
+566,DDoS,Low,Web Server,2023-07-20,Open
+567,DDoS,Medium,Database,2023-07-21,Open
+568,SQL Injection,High,Application Server,2023-07-22,Resolved
+569,Phishing,Medium,Application Server,2023-07-23,Open
+570,Malware,High,Database,2023-07-24,Resolved
+571,Ransomware,Critical,Application Server,2023-07-25,Resolved
+572,Malware,High,Network,2023-07-26,Resolved
+573,SQL Injection,Critical,Web Server,2023-07-27,Open
+574,DDoS,Medium,Database,2023-07-28,Open
+575,Phishing,High,Web Server,2023-07-29,Resolved
+576,Malware,Low,Application Server,2023-07-30,Resolved
+577,Phishing,High,Database,2023-07-31,Resolved
+578,DDoS,Critical,Application Server,2023-08-01,Resolved
+579,Phishing,Critical,Web Server,2023-08-02,Open
+580,Phishing,Low,Application Server,2023-08-03,Open
+581,Ransomware,High,Database,2023-08-04,Open
+582,Malware,Medium,Application Server,2023-08-05,Open
+583,SQL Injection,High,Database,2023-08-06,Open
+584,Phishing,High,Database,2023-08-07,Resolved
+585,Phishing,High,Database,2023-08-08,Open
+586,SQL Injection,Low,Network,2023-08-09,Resolved
+587,Malware,Low,Application Server,2023-08-10,Resolved
+588,DDoS,Low,Application Server,2023-08-11,Resolved
+589,Ransomware,Low,Web Server,2023-08-12,Resolved
+590,SQL Injection,Low,Database,2023-08-13,Resolved
+591,Phishing,Medium,Database,2023-08-14,Resolved
+592,DDoS,High,Web Server,2023-08-15,Resolved
+593,Ransomware,High,Application Server,2023-08-16,Resolved
+594,SQL Injection,Medium,Application Server,2023-08-17,Open
+595,Phishing,Medium,Application Server,2023-08-18,Open
+596,Malware,Medium,Database,2023-08-19,Resolved
+597,SQL Injection,Medium,Database,2023-08-20,Resolved
+598,Phishing,Low,Web Server,2023-08-21,Resolved
+599,DDoS,High,Network,2023-08-22,Resolved
+600,SQL Injection,Medium,Network,2023-08-23,Open
+601,Ransomware,Critical,Database,2023-08-24,Open
+602,Malware,Medium,Application Server,2023-08-25,Open
+603,SQL Injection,High,Application Server,2023-08-26,Resolved
+604,SQL Injection,Critical,Network,2023-08-27,Resolved
+605,Malware,Medium,Application Server,2023-08-28,Resolved
+606,DDoS,Low,Network,2023-08-29,Open
+607,Ransomware,Low,Database,2023-08-30,Open
+608,Phishing,Critical,Database,2023-08-31,Open
+609,DDoS,Low,Application Server,2023-09-01,Resolved
+610,Phishing,Critical,Application Server,2023-09-02,Open
+611,Ransomware,Medium,Network,2023-09-03,Resolved
+612,DDoS,High,Application Server,2023-09-04,Resolved
+613,SQL Injection,Critical,Database,2023-09-05,Resolved
+614,DDoS,Medium,Application Server,2023-09-06,Open
+615,Phishing,Critical,Application Server,2023-09-07,Resolved
+616,SQL Injection,High,Application Server,2023-09-08,Resolved
+617,Malware,Low,Database,2023-09-09,Open
+618,DDoS,Low,Application Server,2023-09-10,Resolved
+619,DDoS,Critical,Network,2023-09-11,Resolved
+620,SQL Injection,High,Web Server,2023-09-12,Resolved
+621,DDoS,Medium,Network,2023-09-13,Resolved
+622,SQL Injection,Medium,Network,2023-09-14,Open
+623,Malware,Medium,Network,2023-09-15,Resolved
+624,DDoS,Critical,Database,2023-09-16,Resolved
+625,Phishing,Low,Network,2023-09-17,Resolved
+626,DDoS,Critical,Application Server,2023-09-18,Open
+627,SQL Injection,Critical,Database,2023-09-19,Open
+628,SQL Injection,Critical,Web Server,2023-09-20,Resolved
+629,Phishing,Medium,Network,2023-09-21,Resolved
+630,Phishing,High,Web Server,2023-09-22,Resolved
+631,SQL Injection,Critical,Application Server,2023-09-23,Open
+632,SQL Injection,Medium,Application Server,2023-09-24,Open
+633,DDoS,Critical,Network,2023-09-25,Resolved
+634,SQL Injection,Critical,Application Server,2023-09-26,Resolved
+635,Phishing,Medium,Application Server,2023-09-27,Open
+636,DDoS,High,Application Server,2023-09-28,Resolved
+637,SQL Injection,High,Database,2023-09-29,Open
+638,Malware,Low,Web Server,2023-09-30,Open
+639,Phishing,Critical,Network,2023-10-01,Open
+640,Malware,Low,Web Server,2023-10-02,Resolved
+641,DDoS,Medium,Database,2023-10-03,Open
+642,Phishing,Critical,Application Server,2023-10-04,Open
+643,DDoS,Medium,Application Server,2023-10-05,Resolved
+644,Ransomware,Low,Database,2023-10-06,Resolved
+645,Phishing,Medium,Application Server,2023-10-07,Open
+646,DDoS,Medium,Network,2023-10-08,Open
+647,Malware,High,Network,2023-10-09,Open
+648,DDoS,Critical,Web Server,2023-10-10,Open
+649,SQL Injection,Critical,Database,2023-10-11,Open
+650,SQL Injection,Critical,Database,2023-10-12,Open
+651,Malware,Medium,Network,2023-10-13,Resolved
+652,DDoS,High,Application Server,2023-10-14,Open
+653,Phishing,Low,Database,2023-10-15,Open
+654,Malware,Critical,Database,2023-10-16,Resolved
+655,DDoS,Medium,Application Server,2023-10-17,Resolved
+656,Ransomware,High,Database,2023-10-18,Open
+657,SQL Injection,High,Application Server,2023-10-19,Open
+658,Malware,Critical,Web Server,2023-10-20,Resolved
+659,DDoS,High,Web Server,2023-10-21,Resolved
+660,Ransomware,High,Application Server,2023-10-22,Open
+661,SQL Injection,Medium,Web Server,2023-10-23,Resolved
+662,Ransomware,Low,Application Server,2023-10-24,Resolved
+663,Malware,High,Application Server,2023-10-25,Open
+664,DDoS,Low,Database,2023-10-26,Resolved
+665,Ransomware,High,Application Server,2023-10-27,Open
+666,Ransomware,High,Application Server,2023-10-28,Open
+667,Ransomware,High,Application Server,2023-10-29,Open
+668,Phishing,Critical,Application Server,2023-10-30,Open
+669,Ransomware,Critical,Application Server,2023-10-31,Resolved
+670,DDoS,Critical,Network,2023-11-01,Open
+671,DDoS,Low,Network,2023-11-02,Open
+672,DDoS,Low,Network,2023-11-03,Resolved
+673,SQL Injection,Critical,Web Server,2023-11-04,Resolved
+674,Ransomware,Low,Database,2023-11-05,Open
+675,Malware,Medium,Web Server,2023-11-06,Open
+676,SQL Injection,Low,Web Server,2023-11-07,Resolved
+677,Phishing,Medium,Network,2023-11-08,Open
+678,DDoS,Critical,Network,2023-11-09,Resolved
+679,Phishing,Medium,Database,2023-11-10,Resolved
+680,SQL Injection,Critical,Application Server,2023-11-11,Resolved
+681,Phishing,Critical,Web Server,2023-11-12,Resolved
+682,SQL Injection,Critical,Database,2023-11-13,Resolved
+683,Phishing,Low,Application Server,2023-11-14,Resolved
+684,DDoS,High,Web Server,2023-11-15,Resolved
+685,Ransomware,High,Database,2023-11-16,Resolved
+686,DDoS,Medium,Web Server,2023-11-17,Open
+687,DDoS,High,Database,2023-11-18,Open
+688,DDoS,Critical,Web Server,2023-11-19,Resolved
+689,Ransomware,High,Application Server,2023-11-20,Open
+690,DDoS,Medium,Web Server,2023-11-21,Open
+691,SQL Injection,Critical,Network,2023-11-22,Open
+692,Phishing,Low,Web Server,2023-11-23,Resolved
+693,Ransomware,Critical,Application Server,2023-11-24,Open
+694,Malware,Critical,Network,2023-11-25,Resolved
+695,SQL Injection,Medium,Application Server,2023-11-26,Open
+696,Ransomware,Low,Application Server,2023-11-27,Resolved
+697,Phishing,Critical,Database,2023-11-28,Resolved
+698,Ransomware,Low,Application Server,2023-11-29,Resolved
+699,SQL Injection,Critical,Application Server,2023-11-30,Open
+700,SQL Injection,Critical,Application Server,2023-12-01,Resolved
+701,Malware,Medium,Network,2023-12-02,Open
+702,DDoS,Critical,Web Server,2023-12-03,Open
+703,Phishing,Critical,Network,2023-12-04,Resolved
+704,SQL Injection,Critical,Application Server,2023-12-05,Resolved
+705,SQL Injection,High,Application Server,2023-12-06,Resolved
+706,Phishing,Low,Application Server,2023-12-07,Open
+707,SQL Injection,Medium,Network,2023-12-08,Open
+708,Malware,Medium,Application Server,2023-12-09,Open
+709,Malware,Medium,Database,2023-12-10,Resolved
+710,DDoS,Critical,Network,2023-12-11,Resolved
+711,Ransomware,Low,Database,2023-12-12,Resolved
+712,Phishing,High,Database,2023-12-13,Open
+713,Malware,High,Network,2023-12-14,Resolved
+714,Malware,Medium,Application Server,2023-12-15,Open
+715,Malware,Low,Web Server,2023-12-16,Resolved
+716,Malware,High,Application Server,2023-12-17,Open
+717,DDoS,Medium,Database,2023-12-18,Resolved
+718,SQL Injection,High,Network,2023-12-19,Resolved
+719,Malware,High,Database,2023-12-20,Open
+720,DDoS,Low,Network,2023-12-21,Resolved
+721,Ransomware,Medium,Application Server,2023-12-22,Resolved
+722,SQL Injection,High,Application Server,2023-12-23,Open
+723,Ransomware,Critical,Network,2023-12-24,Open
+724,SQL Injection,Critical,Application Server,2023-12-25,Open
+725,SQL Injection,High,Application Server,2023-12-26,Open
+726,SQL Injection,Low,Web Server,2023-12-27,Resolved
+727,DDoS,Low,Network,2023-12-28,Resolved
+728,Phishing,High,Database,2023-12-29,Resolved
+729,Ransomware,Low,Application Server,2023-12-30,Resolved
+730,SQL Injection,Low,Database,2023-12-31,Open
+731,SQL Injection,Critical,Web Server,2024-01-01,Open
+732,Malware,Medium,Application Server,2024-01-02,Resolved
+733,Malware,Medium,Database,2024-01-03,Open
+734,DDoS,High,Web Server,2024-01-04,Resolved
+735,SQL Injection,High,Network,2024-01-05,Resolved
+736,Ransomware,High,Network,2024-01-06,Resolved
+737,Ransomware,Critical,Network,2024-01-07,Resolved
+738,Malware,Critical,Web Server,2024-01-08,Resolved
+739,Malware,Low,Application Server,2024-01-09,Resolved
+740,Phishing,Critical,Database,2024-01-10,Resolved
+741,SQL Injection,Medium,Database,2024-01-11,Open
+742,SQL Injection,Critical,Network,2024-01-12,Resolved
+743,Malware,High,Database,2024-01-13,Resolved
+744,Malware,Medium,Web Server,2024-01-14,Open
+745,Malware,Low,Application Server,2024-01-15,Open
+746,Phishing,Medium,Application Server,2024-01-16,Open
+747,Phishing,Critical,Web Server,2024-01-17,Open
+748,Phishing,Critical,Application Server,2024-01-18,Resolved
+749,SQL Injection,Low,Web Server,2024-01-19,Open
+750,Phishing,High,Web Server,2024-01-20,Open
+751,SQL Injection,Low,Database,2024-01-21,Open
+752,Malware,Low,Web Server,2024-01-22,Resolved
+753,SQL Injection,Low,Database,2024-01-23,Resolved
+754,Ransomware,Low,Application Server,2024-01-24,Resolved
+755,DDoS,Critical,Network,2024-01-25,Open
+756,Malware,High,Application Server,2024-01-26,Resolved
+757,Ransomware,Medium,Database,2024-01-27,Resolved
+758,DDoS,High,Web Server,2024-01-28,Open
+759,Ransomware,High,Application Server,2024-01-29,Open
+760,DDoS,Low,Database,2024-01-30,Open
+761,DDoS,High,Application Server,2024-01-31,Open
+762,Phishing,Low,Network,2024-02-01,Open
+763,Ransomware,Medium,Network,2024-02-02,Open
+764,Ransomware,Low,Application Server,2024-02-03,Open
+765,Malware,Medium,Network,2024-02-04,Open
+766,SQL Injection,High,Database,2024-02-05,Resolved
+767,Ransomware,Low,Web Server,2024-02-06,Resolved
+768,Ransomware,Critical,Web Server,2024-02-07,Open
+769,Malware,Medium,Application Server,2024-02-08,Open
+770,Malware,High,Application Server,2024-02-09,Resolved
+771,Phishing,Medium,Database,2024-02-10,Open
+772,SQL Injection,Low,Web Server,2024-02-11,Open
+773,SQL Injection,Critical,Web Server,2024-02-12,Open
+774,Phishing,Medium,Database,2024-02-13,Open
+775,Malware,Medium,Network,2024-02-14,Resolved
+776,Malware,Medium,Web Server,2024-02-15,Open
+777,Malware,High,Application Server,2024-02-16,Resolved
+778,Ransomware,Critical,Network,2024-02-17,Open
+779,SQL Injection,Critical,Web Server,2024-02-18,Resolved
+780,SQL Injection,Critical,Network,2024-02-19,Resolved
+781,DDoS,Medium,Network,2024-02-20,Open
+782,DDoS,Medium,Web Server,2024-02-21,Resolved
+783,Ransomware,Medium,Web Server,2024-02-22,Resolved
+784,Ransomware,Medium,Database,2024-02-23,Resolved
+785,SQL Injection,Low,Application Server,2024-02-24,Resolved
+786,DDoS,Low,Web Server,2024-02-25,Resolved
+787,Phishing,High,Web Server,2024-02-26,Open
+788,Malware,Medium,Application Server,2024-02-27,Open
+789,SQL Injection,High,Database,2024-02-28,Resolved
+790,Phishing,Critical,Network,2024-02-29,Resolved
+791,Ransomware,Medium,Application Server,2024-03-01,Resolved
+792,Malware,Low,Database,2024-03-02,Open
+793,Ransomware,Medium,Network,2024-03-03,Open
+794,DDoS,Critical,Application Server,2024-03-04,Open
+795,Phishing,High,Database,2024-03-05,Resolved
+796,Malware,Medium,Web Server,2024-03-06,Resolved
+797,Malware,Low,Web Server,2024-03-07,Open
+798,Ransomware,Critical,Network,2024-03-08,Open
+799,SQL Injection,Critical,Web Server,2024-03-09,Resolved
+800,Phishing,High,Network,2024-03-10,Open
+801,Malware,Medium,Database,2024-03-11,Open
+802,Malware,Low,Web Server,2024-03-12,Open
+803,DDoS,Medium,Network,2024-03-13,Resolved
+804,Phishing,Low,Application Server,2024-03-14,Open
+805,Phishing,High,Database,2024-03-15,Open
+806,Malware,Critical,Web Server,2024-03-16,Resolved
+807,Phishing,High,Web Server,2024-03-17,Open
+808,Phishing,Critical,Network,2024-03-18,Resolved
+809,Malware,Medium,Application Server,2024-03-19,Resolved
+810,Malware,Critical,Web Server,2024-03-20,Resolved
+811,Ransomware,Low,Network,2024-03-21,Resolved
+812,Ransomware,High,Web Server,2024-03-22,Open
+813,Ransomware,Critical,Database,2024-03-23,Open
+814,Ransomware,Critical,Web Server,2024-03-24,Open
+815,Phishing,Medium,Network,2024-03-25,Resolved
+816,DDoS,Medium,Network,2024-03-26,Open
+817,Malware,Medium,Network,2024-03-27,Resolved
+818,Malware,Low,Application Server,2024-03-28,Open
+819,SQL Injection,Medium,Application Server,2024-03-29,Resolved
+820,DDoS,Critical,Database,2024-03-30,Resolved
+821,DDoS,Low,Web Server,2024-03-31,Resolved
+822,Malware,Medium,Application Server,2024-04-01,Open
+823,DDoS,Critical,Web Server,2024-04-02,Resolved
+824,SQL Injection,Low,Web Server,2024-04-03,Resolved
+825,Phishing,Critical,Network,2024-04-04,Open
+826,Ransomware,Medium,Network,2024-04-05,Resolved
+827,SQL Injection,Medium,Web Server,2024-04-06,Resolved
+828,Ransomware,Low,Network,2024-04-07,Open
+829,Malware,High,Web Server,2024-04-08,Resolved
+830,Phishing,Critical,Web Server,2024-04-09,Open
+831,SQL Injection,Critical,Network,2024-04-10,Resolved
+832,DDoS,High,Application Server,2024-04-11,Open
+833,Phishing,High,Web Server,2024-04-12,Resolved
+834,SQL Injection,Critical,Application Server,2024-04-13,Open
+835,Phishing,Low,Application Server,2024-04-14,Resolved
+836,Malware,High,Network,2024-04-15,Resolved
+837,DDoS,Medium,Application Server,2024-04-16,Resolved
+838,Ransomware,Low,Application Server,2024-04-17,Open
+839,Ransomware,High,Application Server,2024-04-18,Resolved
+840,Ransomware,Medium,Application Server,2024-04-19,Open
+841,SQL Injection,Medium,Web Server,2024-04-20,Open
+842,Phishing,Critical,Network,2024-04-21,Open
+843,DDoS,Low,Network,2024-04-22,Resolved
+844,DDoS,High,Network,2024-04-23,Resolved
+845,SQL Injection,Medium,Web Server,2024-04-24,Resolved
+846,DDoS,Critical,Web Server,2024-04-25,Open
+847,DDoS,High,Database,2024-04-26,Resolved
+848,Phishing,Medium,Web Server,2024-04-27,Open
+849,Phishing,Critical,Web Server,2024-04-28,Open
+850,Phishing,Medium,Application Server,2024-04-29,Resolved
+851,SQL Injection,Critical,Web Server,2024-04-30,Open
+852,SQL Injection,Critical,Database,2024-05-01,Open
+853,SQL Injection,Low,Database,2024-05-02,Open
+854,DDoS,High,Application Server,2024-05-03,Resolved
+855,Ransomware,Critical,Web Server,2024-05-04,Open
+856,DDoS,Medium,Web Server,2024-05-05,Resolved
+857,Phishing,High,Network,2024-05-06,Open
+858,Ransomware,High,Web Server,2024-05-07,Open
+859,Malware,High,Application Server,2024-05-08,Resolved
+860,Ransomware,Low,Network,2024-05-09,Open
+861,Phishing,Critical,Web Server,2024-05-10,Open
+862,Phishing,Critical,Network,2024-05-11,Resolved
+863,Phishing,Critical,Database,2024-05-12,Resolved
+864,Phishing,Critical,Application Server,2024-05-13,Open
+865,Malware,Medium,Database,2024-05-14,Open
+866,Ransomware,Critical,Web Server,2024-05-15,Open
+867,Malware,High,Database,2024-05-16,Open
+868,DDoS,Critical,Database,2024-05-17,Open
+869,Ransomware,Critical,Network,2024-05-18,Open
+870,DDoS,Critical,Application Server,2024-05-19,Resolved
+871,DDoS,Critical,Application Server,2024-05-20,Open
+872,DDoS,Low,Database,2024-05-21,Resolved
+873,Phishing,High,Web Server,2024-05-22,Resolved
+874,Ransomware,Low,Web Server,2024-05-23,Open
+875,SQL Injection,High,Database,2024-05-24,Resolved
+876,Ransomware,Critical,Web Server,2024-05-25,Open
+877,Phishing,Critical,Database,2024-05-26,Resolved
+878,Ransomware,High,Application Server,2024-05-27,Open
+879,Phishing,High,Web Server,2024-05-28,Open
+880,Ransomware,Low,Network,2024-05-29,Resolved
+881,Ransomware,Low,Database,2024-05-30,Resolved
+882,DDoS,Medium,Web Server,2024-05-31,Open
+883,Malware,Medium,Network,2024-06-01,Resolved
+884,Ransomware,Low,Application Server,2024-06-02,Open
+885,SQL Injection,Medium,Database,2024-06-03,Open
+886,Malware,Low,Web Server,2024-06-04,Resolved
+887,SQL Injection,Low,Application Server,2024-06-05,Resolved
+888,Ransomware,Low,Database,2024-06-06,Open
+889,Phishing,Medium,Network,2024-06-07,Open
+890,Ransomware,High,Database,2024-06-08,Open
+891,DDoS,Critical,Application Server,2024-06-09,Open
+892,Phishing,Medium,Network,2024-06-10,Open
+893,SQL Injection,Critical,Network,2024-06-11,Open
+894,Ransomware,Critical,Application Server,2024-06-12,Open
+895,Ransomware,High,Web Server,2024-06-13,Resolved
+896,Phishing,Medium,Network,2024-06-14,Open
+897,Ransomware,Critical,Network,2024-06-15,Open
+898,Malware,High,Web Server,2024-06-16,Open
+899,SQL Injection,High,Network,2024-06-17,Open
+900,Ransomware,Low,Web Server,2024-06-18,Resolved
+901,Ransomware,Medium,Application Server,2024-06-19,Open
+902,Phishing,Critical,Application Server,2024-06-20,Resolved
+903,DDoS,High,Web Server,2024-06-21,Resolved
+904,SQL Injection,Critical,Network,2024-06-22,Resolved
+905,Malware,Medium,Database,2024-06-23,Resolved
+906,Malware,Low,Network,2024-06-24,Resolved
+907,Phishing,Critical,Database,2024-06-25,Resolved
+908,Malware,Low,Network,2024-06-26,Resolved
+909,DDoS,High,Application Server,2024-06-27,Resolved
+910,Ransomware,Low,Web Server,2024-06-28,Resolved
+911,SQL Injection,Critical,Network,2024-06-29,Open
+912,Ransomware,Medium,Web Server,2024-06-30,Open
+913,Phishing,Critical,Database,2024-07-01,Resolved
+914,Ransomware,Critical,Network,2024-07-02,Resolved
+915,DDoS,Low,Database,2024-07-03,Resolved
+916,Malware,Low,Network,2024-07-04,Open
+917,SQL Injection,Critical,Web Server,2024-07-05,Open
+918,DDoS,Low,Web Server,2024-07-06,Resolved
+919,Phishing,Low,Network,2024-07-07,Resolved
+920,SQL Injection,Medium,Database,2024-07-08,Open
+921,Ransomware,Medium,Network,2024-07-09,Resolved
+922,Phishing,High,Network,2024-07-10,Open
+923,Ransomware,Critical,Network,2024-07-11,Open
+924,DDoS,Low,Database,2024-07-12,Resolved
+925,DDoS,Critical,Application Server,2024-07-13,Open
+926,Phishing,High,Network,2024-07-14,Open
+927,Malware,High,Application Server,2024-07-15,Open
+928,Phishing,Medium,Web Server,2024-07-16,Open
+929,Malware,Low,Network,2024-07-17,Resolved
+930,Phishing,Low,Network,2024-07-18,Open
+931,Phishing,Critical,Web Server,2024-07-19,Resolved
+932,SQL Injection,Medium,Application Server,2024-07-20,Open
+933,Malware,Medium,Network,2024-07-21,Resolved
+934,Malware,Medium,Database,2024-07-22,Open
+935,DDoS,Low,Application Server,2024-07-23,Open
+936,Ransomware,High,Application Server,2024-07-24,Open
+937,DDoS,High,Network,2024-07-25,Resolved
+938,Malware,Low,Database,2024-07-26,Resolved
+939,SQL Injection,High,Application Server,2024-07-27,Open
+940,Malware,Critical,Network,2024-07-28,Resolved
+941,Ransomware,Low,Application Server,2024-07-29,Open
+942,Ransomware,Low,Network,2024-07-30,Open
+943,Phishing,Medium,Network,2024-07-31,Open
+944,SQL Injection,Low,Database,2024-08-01,Open
+945,DDoS,Critical,Web Server,2024-08-02,Resolved
+946,SQL Injection,Medium,Application Server,2024-08-03,Open
+947,Phishing,Medium,Application Server,2024-08-04,Resolved
+948,Malware,High,Application Server,2024-08-05,Open
+949,Ransomware,Medium,Application Server,2024-08-06,Open
+950,Malware,Critical,Application Server,2024-08-07,Resolved
+951,Malware,Critical,Application Server,2024-08-08,Resolved
+952,Phishing,High,Network,2024-08-09,Resolved
+953,DDoS,Low,Network,2024-08-10,Open
+954,Malware,Critical,Network,2024-08-11,Open
+955,Ransomware,Critical,Web Server,2024-08-12,Open
+956,Ransomware,High,Application Server,2024-08-13,Resolved
+957,DDoS,High,Network,2024-08-14,Open
+958,DDoS,High,Database,2024-08-15,Resolved
+959,Phishing,Low,Application Server,2024-08-16,Open
+960,SQL Injection,Low,Application Server,2024-08-17,Resolved
+961,Ransomware,Medium,Web Server,2024-08-18,Open
+962,Malware,Critical,Database,2024-08-19,Open
+963,Phishing,Low,Database,2024-08-20,Resolved
+964,DDoS,Medium,Web Server,2024-08-21,Open
+965,Malware,Low,Web Server,2024-08-22,Open
+966,SQL Injection,High,Network,2024-08-23,Resolved
+967,DDoS,Medium,Web Server,2024-08-24,Open
+968,SQL Injection,Low,Application Server,2024-08-25,Resolved
+969,SQL Injection,Low,Database,2024-08-26,Resolved
+970,Ransomware,Critical,Network,2024-08-27,Open
+971,Ransomware,Low,Web Server,2024-08-28,Open
+972,SQL Injection,Critical,Database,2024-08-29,Resolved
+973,Ransomware,High,Web Server,2024-08-30,Resolved
+974,DDoS,Medium,Network,2024-08-31,Open
+975,SQL Injection,Medium,Application Server,2024-09-01,Open
+976,SQL Injection,Medium,Database,2024-09-02,Open
+977,Phishing,Low,Web Server,2024-09-03,Resolved
+978,Phishing,Medium,Network,2024-09-04,Resolved
+979,Phishing,Critical,Application Server,2024-09-05,Resolved
+980,Phishing,Medium,Web Server,2024-09-06,Open
+981,Malware,Low,Application Server,2024-09-07,Resolved
+982,Phishing,Low,Application Server,2024-09-08,Open
+983,DDoS,Critical,Network,2024-09-09,Open
+984,Malware,Critical,Database,2024-09-10,Open
+985,DDoS,Low,Database,2024-09-11,Open
+986,Phishing,Low,Web Server,2024-09-12,Resolved
+987,SQL Injection,High,Database,2024-09-13,Open
+988,Malware,High,Web Server,2024-09-14,Resolved
+989,SQL Injection,Medium,Web Server,2024-09-15,Resolved
+990,DDoS,High,Database,2024-09-16,Open
+991,DDoS,Low,Web Server,2024-09-17,Resolved
+992,Malware,High,Application Server,2024-09-18,Resolved
+993,DDoS,Low,Web Server,2024-09-19,Open
+994,Malware,High,Database,2024-09-20,Resolved
+995,DDoS,Critical,Application Server,2024-09-21,Open
+996,SQL Injection,Low,Network,2024-09-22,Open
+997,Ransomware,Medium,Web Server,2024-09-23,Open
+998,Phishing,Medium,Web Server,2024-09-24,Resolved
+999,Phishing,High,Web Server,2024-09-25,Open
+1000,Ransomware,Critical,Database,2024-09-26,Resolved
+1001,Ransomware,Low,Application Server,2024-09-27,Resolved
+1002,Malware,Medium,Network,2024-09-28,Resolved
+1003,DDoS,Low,Database,2024-09-29,Resolved
+1004,SQL Injection,High,Database,2024-09-30,Open
+1005,Phishing,Low,Database,2024-10-01,Open
+1006,Ransomware,Low,Network,2024-10-02,Resolved
+1007,Ransomware,High,Database,2024-10-03,Resolved
+1008,Ransomware,Medium,Database,2024-10-04,Open
+1009,DDoS,Critical,Database,2024-10-05,Resolved
+1010,SQL Injection,Critical,Network,2024-10-06,Open
+1011,Ransomware,Critical,Network,2024-10-07,Open
+1012,SQL Injection,High,Network,2024-10-08,Resolved
+1013,Phishing,Low,Network,2024-10-09,Resolved
+1014,Malware,High,Database,2024-10-10,Open
+1015,Malware,High,Network,2024-10-11,Open
+1016,Phishing,Low,Application Server,2024-10-12,Resolved
+1017,Malware,Critical,Application Server,2024-10-13,Open
+1018,Ransomware,High,Web Server,2024-10-14,Resolved
+1019,DDoS,Critical,Database,2024-10-15,Open
+1020,Malware,Medium,Web Server,2024-10-16,Open
+1021,Phishing,Medium,Network,2024-10-17,Resolved
+1022,DDoS,Critical,Web Server,2024-10-18,Open
+1023,Phishing,High,Database,2024-10-19,Resolved
+1024,Ransomware,Low,Database,2024-10-20,Open
+1025,Phishing,Critical,Application Server,2024-10-21,Resolved
+1026,Ransomware,Critical,Database,2024-10-22,Resolved
+1027,Malware,High,Web Server,2024-10-23,Resolved
+1028,DDoS,Critical,Database,2024-10-24,Resolved
+1029,SQL Injection,Critical,Database,2024-10-25,Open
+1030,DDoS,High,Web Server,2024-10-26,Open
+1031,SQL Injection,Critical,Network,2024-10-27,Open
+1032,Malware,Critical,Database,2024-10-28,Open
+1033,Phishing,Critical,Network,2024-10-29,Open
+1034,Ransomware,Medium,Network,2024-10-30,Open
+1035,Ransomware,Medium,Database,2024-10-31,Open
+1036,Ransomware,Low,Web Server,2024-11-01,Open
+1037,Malware,Low,Network,2024-11-02,Open
+1038,Malware,Low,Application Server,2024-11-03,Open
+1039,SQL Injection,High,Web Server,2024-11-04,Open
+1040,DDoS,High,Database,2024-11-05,Open
+1041,DDoS,High,Database,2024-11-06,Open
+1042,Phishing,Critical,Database,2024-11-07,Open
+1043,SQL Injection,High,Database,2024-11-08,Open
+1044,Malware,Low,Database,2024-11-09,Resolved
+1045,Malware,Low,Application Server,2024-11-10,Open
+1046,Ransomware,Low,Database,2024-11-11,Open
+1047,SQL Injection,High,Web Server,2024-11-12,Resolved
+1048,SQL Injection,High,Database,2024-11-13,Open
+1049,Malware,Low,Application Server,2024-11-14,Open
+1050,SQL Injection,Medium,Network,2024-11-15,Open
+1051,Ransomware,Low,Network,2024-11-16,Resolved
+1052,Ransomware,High,Database,2024-11-17,Open
+1053,Malware,High,Application Server,2024-11-18,Open
+1054,Malware,Low,Web Server,2024-11-19,Open
+1055,SQL Injection,Critical,Database,2024-11-20,Resolved
+1056,SQL Injection,Medium,Database,2024-11-21,Resolved
+1057,DDoS,Medium,Database,2024-11-22,Open
+1058,SQL Injection,High,Database,2024-11-23,Open
+1059,SQL Injection,High,Web Server,2024-11-24,Open
+1060,Phishing,High,Application Server,2024-11-25,Resolved
+1061,Malware,Low,Application Server,2024-11-26,Open
+1062,SQL Injection,High,Network,2024-11-27,Resolved
+1063,Phishing,High,Network,2024-11-28,Resolved
+1064,SQL Injection,High,Network,2024-11-29,Open
+1065,Malware,Medium,Network,2024-11-30,Open
+1066,DDoS,Medium,Network,2024-12-01,Resolved
+1067,Ransomware,Critical,Network,2024-12-02,Open
+1068,Malware,Critical,Web Server,2024-12-03,Open
+1069,Malware,High,Database,2024-12-04,Open
+1070,Phishing,Medium,Web Server,2024-12-05,Open
+1071,Phishing,Medium,Web Server,2024-12-06,Open
+1072,Phishing,Medium,Web Server,2024-12-07,Resolved
+1073,DDoS,Medium,Application Server,2024-12-08,Resolved
+1074,Phishing,Critical,Web Server,2024-12-09,Resolved
+1075,Malware,Low,Application Server,2024-12-10,Resolved
+1076,Phishing,Medium,Web Server,2024-12-11,Open
+1077,SQL Injection,Medium,Web Server,2024-12-12,Resolved
+1078,SQL Injection,Medium,Application Server,2024-12-13,Open
+1079,Ransomware,Medium,Database,2024-12-14,Open
+1080,SQL Injection,Low,Web Server,2024-12-15,Resolved
+1081,Ransomware,Low,Web Server,2024-12-16,Resolved
+1082,SQL Injection,High,Network,2024-12-17,Resolved
+1083,DDoS,Critical,Network,2024-12-18,Resolved
+1084,Ransomware,Medium,Database,2024-12-19,Resolved
+1085,SQL Injection,Medium,Application Server,2024-12-20,Open
+1086,Ransomware,High,Web Server,2024-12-21,Resolved
+1087,Ransomware,Low,Network,2024-12-22,Open
+1088,SQL Injection,High,Web Server,2024-12-23,Open
+1089,Malware,Low,Network,2024-12-24,Open
+1090,Phishing,Critical,Application Server,2024-12-25,Resolved
+1091,Ransomware,High,Application Server,2024-12-26,Open
+1092,Ransomware,High,Network,2024-12-27,Open
+1093,Ransomware,Medium,Network,2024-12-28,Resolved
+1094,Phishing,High,Network,2024-12-29,Open
+1095,Ransomware,Low,Web Server,2024-12-30,Resolved
+1096,Ransomware,Low,Application Server,2024-12-31,Open
+1097,SQL Injection,High,Database,2025-01-01,Resolved
+1098,Malware,Low,Network,2025-01-02,Resolved
+1099,DDoS,High,Network,2025-01-03,Resolved
+1100,DDoS,Critical,Database,2025-01-04,Open
+1101,Phishing,Medium,Web Server,2025-01-05,Open
+1102,DDoS,Critical,Network,2025-01-06,Resolved
+1103,Malware,Critical,Database,2025-01-07,Resolved
+1104,DDoS,Medium,Web Server,2025-01-08,Open
+1105,Malware,Medium,Web Server,2025-01-09,Resolved
+1106,Malware,Medium,Application Server,2025-01-10,Resolved
+1107,SQL Injection,High,Application Server,2025-01-11,Open
+1108,DDoS,Low,Web Server,2025-01-12,Open
+1109,Ransomware,High,Web Server,2025-01-13,Open
+1110,Phishing,Low,Web Server,2025-01-14,Open
+1111,Ransomware,High,Network,2025-01-15,Open
+1112,DDoS,Low,Network,2025-01-16,Resolved
+1113,DDoS,Low,Web Server,2025-01-17,Resolved
+1114,Ransomware,Critical,Database,2025-01-18,Resolved
+1115,SQL Injection,High,Web Server,2025-01-19,Resolved
+1116,DDoS,Medium,Network,2025-01-20,Resolved
+1117,SQL Injection,High,Database,2025-01-21,Resolved
+1118,Phishing,Medium,Network,2025-01-22,Resolved
+1119,DDoS,High,Network,2025-01-23,Resolved
+1120,Ransomware,Critical,Database,2025-01-24,Resolved
+1121,SQL Injection,Low,Web Server,2025-01-25,Open
+1122,Phishing,Medium,Web Server,2025-01-26,Resolved
+1123,Malware,Low,Network,2025-01-27,Resolved
+1124,Phishing,Low,Database,2025-01-28,Open
+1125,SQL Injection,Low,Database,2025-01-29,Resolved
+1126,DDoS,Critical,Network,2025-01-30,Resolved
+1127,DDoS,High,Database,2025-01-31,Open
+1128,Malware,Low,Network,2025-02-01,Open
+1129,SQL Injection,Critical,Database,2025-02-02,Open
+1130,DDoS,Critical,Web Server,2025-02-03,Open
+1131,DDoS,Critical,Network,2025-02-04,Open
+1132,SQL Injection,High,Application Server,2025-02-05,Open
+1133,Phishing,Medium,Database,2025-02-06,Resolved
+1134,Ransomware,Low,Database,2025-02-07,Resolved
+1135,Phishing,Critical,Application Server,2025-02-08,Resolved
+1136,SQL Injection,Medium,Database,2025-02-09,Resolved
+1137,Phishing,Medium,Network,2025-02-10,Resolved
+1138,DDoS,Critical,Database,2025-02-11,Resolved
+1139,SQL Injection,High,Database,2025-02-12,Open
+1140,DDoS,Medium,Database,2025-02-13,Resolved
+1141,DDoS,High,Application Server,2025-02-14,Open
+1142,DDoS,High,Network,2025-02-15,Open
+1143,Phishing,Medium,Network,2025-02-16,Resolved
+1144,Ransomware,Medium,Application Server,2025-02-17,Open
+1145,Malware,Medium,Application Server,2025-02-18,Open
+1146,Ransomware,High,Web Server,2025-02-19,Open
+1147,Malware,High,Network,2025-02-20,Resolved
+1148,SQL Injection,Medium,Network,2025-02-21,Resolved
+1149,Ransomware,Critical,Network,2025-02-22,Open
+1150,Malware,Critical,Web Server,2025-02-23,Resolved
+1151,DDoS,High,Web Server,2025-02-24,Resolved
+1152,SQL Injection,Critical,Database,2025-02-25,Open
+1153,Ransomware,Medium,Application Server,2025-02-26,Resolved
+1154,Phishing,High,Application Server,2025-02-27,Open
+1155,SQL Injection,Critical,Network,2025-02-28,Resolved
+1156,DDoS,High,Database,2025-03-01,Resolved
+1157,DDoS,Critical,Database,2025-03-02,Open
+1158,DDoS,Critical,Database,2025-03-03,Open
+1159,Malware,Low,Network,2025-03-04,Open
+1160,Ransomware,Critical,Network,2025-03-05,Resolved
+1161,SQL Injection,Low,Web Server,2025-03-06,Open
+1162,Ransomware,Medium,Application Server,2025-03-07,Resolved
+1163,Ransomware,Low,Web Server,2025-03-08,Resolved
+1164,Malware,High,Database,2025-03-09,Resolved
+1165,Malware,Medium,Database,2025-03-10,Resolved
+1166,DDoS,Low,Application Server,2025-03-11,Open
+1167,Ransomware,Medium,Network,2025-03-12,Open
+1168,Malware,Critical,Web Server,2025-03-13,Open
+1169,DDoS,Medium,Application Server,2025-03-14,Open
+1170,SQL Injection,Critical,Database,2025-03-15,Resolved
+1171,Malware,High,Database,2025-03-16,Open
+1172,Malware,Critical,Application Server,2025-03-17,Open
+1173,SQL Injection,Critical,Web Server,2025-03-18,Resolved
+1174,SQL Injection,Critical,Network,2025-03-19,Open
+1175,Malware,Low,Database,2025-03-20,Open
+1176,SQL Injection,High,Network,2025-03-21,Open
+1177,SQL Injection,Medium,Database,2025-03-22,Resolved
+1178,DDoS,Critical,Network,2025-03-23,Open
+1179,Malware,Medium,Database,2025-03-24,Open
+1180,SQL Injection,Medium,Database,2025-03-25,Open
+1181,DDoS,Critical,Application Server,2025-03-26,Resolved
+1182,Malware,Low,Database,2025-03-27,Resolved
+1183,Malware,High,Network,2025-03-28,Open
+1184,Malware,Critical,Web Server,2025-03-29,Open
+1185,SQL Injection,Critical,Application Server,2025-03-30,Resolved
+1186,SQL Injection,High,Network,2025-03-31,Open
+1187,Ransomware,Low,Application Server,2025-04-01,Open
+1188,DDoS,High,Network,2025-04-02,Resolved
+1189,Ransomware,Critical,Application Server,2025-04-03,Open
+1190,DDoS,High,Network,2025-04-04,Open
+1191,Phishing,Medium,Database,2025-04-05,Open
+1192,Ransomware,Medium,Application Server,2025-04-06,Open
+1193,Malware,Medium,Database,2025-04-07,Resolved
+1194,Phishing,Low,Application Server,2025-04-08,Open
+1195,Phishing,Medium,Application Server,2025-04-09,Open
+1196,Phishing,High,Network,2025-04-10,Resolved
+1197,DDoS,Low,Network,2025-04-11,Open
+1198,SQL Injection,High,Database,2025-04-12,Resolved
+1199,SQL Injection,Low,Application Server,2025-04-13,Open
+1200,Phishing,High,Web Server,2025-04-14,Open
+1201,SQL Injection,Critical,Database,2025-04-15,Open
+1202,Malware,Low,Application Server,2025-04-16,Resolved
+1203,SQL Injection,Critical,Application Server,2025-04-17,Open
+1204,DDoS,Critical,Application Server,2025-04-18,Resolved
+1205,Phishing,Critical,Database,2025-04-19,Open
+1206,Ransomware,Critical,Network,2025-04-20,Open
+1207,Malware,Critical,Application Server,2025-04-21,Open
+1208,Ransomware,Critical,Network,2025-04-22,Resolved
+1209,Phishing,High,Database,2025-04-23,Open
+1210,Phishing,Medium,Network,2025-04-24,Resolved
+1211,Ransomware,Low,Database,2025-04-25,Open
+1212,Phishing,High,Web Server,2025-04-26,Resolved
+1213,Phishing,High,Network,2025-04-27,Open
+1214,Phishing,High,Web Server,2025-04-28,Open
+1215,SQL Injection,High,Database,2025-04-29,Resolved
+1216,SQL Injection,Medium,Web Server,2025-04-30,Open
+1217,DDoS,Medium,Network,2025-05-01,Resolved
+1218,Ransomware,Low,Web Server,2025-05-02,Open
+1219,Malware,Low,Network,2025-05-03,Open
+1220,Ransomware,High,Web Server,2025-05-04,Resolved
+1221,Ransomware,Low,Network,2025-05-05,Resolved
+1222,DDoS,Critical,Database,2025-05-06,Open
+1223,SQL Injection,High,Web Server,2025-05-07,Resolved
+1224,Malware,Low,Web Server,2025-05-08,Open
+1225,Malware,Low,Application Server,2025-05-09,Resolved
+1226,DDoS,Critical,Web Server,2025-05-10,Open
+1227,Phishing,High,Application Server,2025-05-11,Open
+1228,Ransomware,Medium,Network,2025-05-12,Open
+1229,Ransomware,High,Application Server,2025-05-13,Resolved
+1230,Malware,Medium,Web Server,2025-05-14,Resolved
+1231,Ransomware,Low,Web Server,2025-05-15,Resolved
+1232,Malware,Medium,Application Server,2025-05-16,Resolved
+1233,SQL Injection,High,Network,2025-05-17,Resolved
+1234,SQL Injection,Low,Network,2025-05-18,Open
+1235,Malware,Medium,Application Server,2025-05-19,Resolved
+1236,DDoS,Medium,Web Server,2025-05-20,Resolved
+1237,Ransomware,High,Web Server,2025-05-21,Resolved
+1238,Malware,Low,Network,2025-05-22,Resolved
+1239,DDoS,Low,Web Server,2025-05-23,Resolved
+1240,SQL Injection,Medium,Web Server,2025-05-24,Resolved
+1241,Ransomware,Medium,Application Server,2025-05-25,Resolved
+1242,Ransomware,Medium,Application Server,2025-05-26,Resolved
+1243,SQL Injection,Critical,Database,2025-05-27,Resolved
+1244,Phishing,Low,Application Server,2025-05-28,Resolved
+1245,Malware,Medium,Database,2025-05-29,Resolved
+1246,DDoS,Medium,Application Server,2025-05-30,Open
+1247,DDoS,Low,Application Server,2025-05-31,Open
+1248,Phishing,Critical,Web Server,2025-06-01,Resolved
+1249,DDoS,Low,Database,2025-06-02,Resolved
+1250,DDoS,Critical,Database,2025-06-03,Open
+1251,Ransomware,High,Network,2025-06-04,Resolved
+1252,Malware,Low,Application Server,2025-06-05,Resolved
+1253,Ransomware,Low,Application Server,2025-06-06,Open
+1254,SQL Injection,High,Web Server,2025-06-07,Open
+1255,Ransomware,Low,Web Server,2025-06-08,Open
+1256,Phishing,High,Database,2025-06-09,Resolved
+1257,Malware,Critical,Database,2025-06-10,Resolved
+1258,Phishing,Low,Web Server,2025-06-11,Open
+1259,Malware,High,Network,2025-06-12,Resolved
+1260,Malware,Medium,Web Server,2025-06-13,Resolved
+1261,Malware,Critical,Network,2025-06-14,Resolved
+1262,DDoS,Critical,Web Server,2025-06-15,Resolved
+1263,Ransomware,Medium,Web Server,2025-06-16,Resolved
+1264,DDoS,Medium,Network,2025-06-17,Open
+1265,DDoS,High,Network,2025-06-18,Open
+1266,Ransomware,Medium,Network,2025-06-19,Open
+1267,Phishing,Low,Application Server,2025-06-20,Open
+1268,Malware,High,Application Server,2025-06-21,Open
+1269,Phishing,Critical,Network,2025-06-22,Open
+1270,Phishing,Low,Application Server,2025-06-23,Open
+1271,SQL Injection,Low,Network,2025-06-24,Open
+1272,DDoS,Critical,Network,2025-06-25,Open
+1273,Malware,Low,Network,2025-06-26,Resolved
+1274,Ransomware,Critical,Database,2025-06-27,Open
+1275,Phishing,Critical,Web Server,2025-06-28,Resolved
+1276,SQL Injection,Critical,Network,2025-06-29,Resolved
+1277,SQL Injection,Critical,Application Server,2025-06-30,Open
+1278,Phishing,High,Application Server,2025-07-01,Open
+1279,Phishing,Low,Application Server,2025-07-02,Open
+1280,SQL Injection,Medium,Database,2025-07-03,Open
+1281,DDoS,High,Web Server,2025-07-04,Resolved
+1282,SQL Injection,Medium,Application Server,2025-07-05,Open
+1283,SQL Injection,High,Web Server,2025-07-06,Resolved
+1284,SQL Injection,Low,Web Server,2025-07-07,Open
+1285,DDoS,Critical,Database,2025-07-08,Open
+1286,DDoS,Medium,Database,2025-07-09,Resolved
+1287,DDoS,High,Web Server,2025-07-10,Open
+1288,Ransomware,Low,Database,2025-07-11,Resolved
+1289,Ransomware,Low,Database,2025-07-12,Resolved
+1290,Ransomware,High,Network,2025-07-13,Resolved
+1291,Ransomware,Critical,Application Server,2025-07-14,Resolved
+1292,Malware,High,Database,2025-07-15,Resolved
+1293,Malware,High,Web Server,2025-07-16,Resolved
+1294,Malware,High,Web Server,2025-07-17,Resolved
+1295,Phishing,Critical,Database,2025-07-18,Resolved
+1296,Malware,Medium,Database,2025-07-19,Open
+1297,Phishing,High,Web Server,2025-07-20,Resolved
+1298,SQL Injection,Low,Application Server,2025-07-21,Resolved
+1299,Malware,Medium,Web Server,2025-07-22,Open
+1300,DDoS,Low,Database,2025-07-23,Resolved
+1301,Ransomware,Low,Database,2025-07-24,Resolved
+1302,Phishing,High,Network,2025-07-25,Resolved
+1303,SQL Injection,Medium,Web Server,2025-07-26,Resolved
+1304,Malware,High,Database,2025-07-27,Resolved
+1305,Ransomware,Low,Application Server,2025-07-28,Open
+1306,DDoS,High,Database,2025-07-29,Resolved
+1307,SQL Injection,Critical,Database,2025-07-30,Open
+1308,DDoS,Critical,Web Server,2025-07-31,Resolved
+1309,Malware,High,Network,2025-08-01,Open
+1310,Phishing,High,Application Server,2025-08-02,Resolved
+1311,SQL Injection,High,Database,2025-08-03,Open
+1312,Malware,High,Network,2025-08-04,Open
+1313,Malware,High,Web Server,2025-08-05,Open
+1314,Phishing,Critical,Application Server,2025-08-06,Resolved
+1315,Phishing,Medium,Application Server,2025-08-07,Open
+1316,Malware,High,Network,2025-08-08,Open
+1317,Phishing,Medium,Network,2025-08-09,Open
+1318,SQL Injection,High,Network,2025-08-10,Resolved
+1319,Phishing,Medium,Web Server,2025-08-11,Open
+1320,SQL Injection,Critical,Web Server,2025-08-12,Open
+1321,Malware,Low,Application Server,2025-08-13,Resolved
+1322,Ransomware,Medium,Application Server,2025-08-14,Open
+1323,Malware,Critical,Database,2025-08-15,Resolved
+1324,Malware,Medium,Database,2025-08-16,Resolved
+1325,Malware,Critical,Database,2025-08-17,Resolved
+1326,SQL Injection,Low,Network,2025-08-18,Open
+1327,Ransomware,Critical,Network,2025-08-19,Resolved
+1328,Phishing,High,Network,2025-08-20,Open
+1329,DDoS,High,Web Server,2025-08-21,Resolved
+1330,SQL Injection,Medium,Database,2025-08-22,Open
+1331,Malware,High,Application Server,2025-08-23,Resolved
+1332,Malware,High,Web Server,2025-08-24,Open
+1333,DDoS,Low,Network,2025-08-25,Open
+1334,Phishing,High,Application Server,2025-08-26,Resolved
+1335,Ransomware,High,Database,2025-08-27,Open
+1336,Malware,Medium,Web Server,2025-08-28,Open
+1337,DDoS,High,Application Server,2025-08-29,Open
+1338,Malware,High,Application Server,2025-08-30,Resolved
+1339,DDoS,Critical,Database,2025-08-31,Resolved
+1340,Phishing,Critical,Database,2025-09-01,Resolved
+1341,DDoS,Medium,Database,2025-09-02,Open
+1342,Malware,Medium,Network,2025-09-03,Resolved
+1343,SQL Injection,Medium,Network,2025-09-04,Resolved
+1344,Phishing,High,Database,2025-09-05,Resolved
+1345,DDoS,High,Application Server,2025-09-06,Resolved
+1346,SQL Injection,High,Network,2025-09-07,Resolved
+1347,Ransomware,High,Application Server,2025-09-08,Open
+1348,Ransomware,High,Web Server,2025-09-09,Resolved
+1349,DDoS,High,Web Server,2025-09-10,Resolved
+1350,Phishing,Critical,Web Server,2025-09-11,Open
+1351,Malware,Medium,Network,2025-09-12,Resolved
+1352,Ransomware,Medium,Database,2025-09-13,Open
+1353,SQL Injection,High,Web Server,2025-09-14,Open
+1354,SQL Injection,Low,Web Server,2025-09-15,Resolved
+1355,SQL Injection,Critical,Application Server,2025-09-16,Resolved
+1356,Ransomware,Medium,Network,2025-09-17,Open
+1357,DDoS,Critical,Network,2025-09-18,Open
+1358,Ransomware,High,Application Server,2025-09-19,Resolved
+1359,Phishing,Critical,Network,2025-09-20,Open
+1360,Phishing,Medium,Application Server,2025-09-21,Open
+1361,DDoS,Critical,Database,2025-09-22,Open
+1362,SQL Injection,Critical,Application Server,2025-09-23,Open
+1363,Ransomware,Low,Database,2025-09-24,Open
+1364,DDoS,Critical,Network,2025-09-25,Open
+1365,Malware,Medium,Web Server,2025-09-26,Open
+1366,Phishing,Medium,Network,2025-09-27,Open
+1367,Malware,Medium,Web Server,2025-09-28,Open
+1368,Malware,Medium,Network,2025-09-29,Resolved
+1369,Ransomware,High,Application Server,2025-09-30,Resolved
+1370,DDoS,Low,Application Server,2025-10-01,Open
+1371,Malware,High,Database,2025-10-02,Open
+1372,Malware,Medium,Application Server,2025-10-03,Resolved
+1373,SQL Injection,Critical,Web Server,2025-10-04,Resolved
+1374,SQL Injection,Medium,Application Server,2025-10-05,Open
+1375,Malware,Medium,Database,2025-10-06,Resolved
+1376,Ransomware,Low,Web Server,2025-10-07,Open
+1377,Malware,Low,Web Server,2025-10-08,Open
+1378,Phishing,Critical,Network,2025-10-09,Open
+1379,DDoS,High,Web Server,2025-10-10,Open
+1380,Ransomware,Medium,Application Server,2025-10-11,Resolved
+1381,SQL Injection,Low,Network,2025-10-12,Open
+1382,DDoS,Critical,Database,2025-10-13,Open
+1383,Phishing,Medium,Network,2025-10-14,Resolved
+1384,Ransomware,High,Database,2025-10-15,Open
+1385,Ransomware,High,Database,2025-10-16,Open
+1386,Ransomware,Low,Network,2025-10-17,Open
+1387,SQL Injection,High,Web Server,2025-10-18,Open
+1388,DDoS,Critical,Application Server,2025-10-19,Resolved
+1389,Phishing,Low,Database,2025-10-20,Open
+1390,Malware,Medium,Web Server,2025-10-21,Open
+1391,Malware,Low,Database,2025-10-22,Resolved
+1392,Malware,Critical,Application Server,2025-10-23,Open
+1393,DDoS,Critical,Database,2025-10-24,Open
+1394,Ransomware,High,Database,2025-10-25,Open
+1395,Phishing,Medium,Network,2025-10-26,Resolved
+1396,SQL Injection,Critical,Network,2025-10-27,Resolved
+1397,Ransomware,High,Database,2025-10-28,Resolved
+1398,SQL Injection,Medium,Application Server,2025-10-29,Open
+1399,Ransomware,Medium,Network,2025-10-30,Resolved
+1400,Malware,Critical,Network,2025-10-31,Resolved
+1401,Ransomware,Medium,Database,2025-11-01,Open
+1402,Malware,Medium,Database,2025-11-02,Resolved
+1403,Malware,High,Application Server,2025-11-03,Open
+1404,Phishing,Low,Network,2025-11-04,Open
+1405,Phishing,Medium,Network,2025-11-05,Open
+1406,SQL Injection,High,Database,2025-11-06,Open
+1407,SQL Injection,High,Network,2025-11-07,Open
+1408,DDoS,High,Database,2025-11-08,Resolved
+1409,DDoS,Critical,Web Server,2025-11-09,Open
+1410,SQL Injection,Critical,Database,2025-11-10,Open
+1411,Phishing,Low,Database,2025-11-11,Open
+1412,Malware,Critical,Database,2025-11-12,Resolved
+1413,DDoS,High,Web Server,2025-11-13,Resolved
+1414,Phishing,High,Database,2025-11-14,Resolved
+1415,Malware,Low,Database,2025-11-15,Resolved
+1416,DDoS,High,Database,2025-11-16,Open
+1417,Phishing,Critical,Web Server,2025-11-17,Open
+1418,SQL Injection,High,Web Server,2025-11-18,Open
+1419,Phishing,Low,Application Server,2025-11-19,Resolved
+1420,DDoS,Low,Network,2025-11-20,Open
+1421,Malware,Low,Web Server,2025-11-21,Open
+1422,DDoS,Medium,Database,2025-11-22,Open
+1423,Ransomware,Critical,Database,2025-11-23,Resolved
+1424,SQL Injection,Low,Application Server,2025-11-24,Resolved
+1425,Ransomware,Medium,Network,2025-11-25,Open
+1426,DDoS,Critical,Application Server,2025-11-26,Resolved
+1427,DDoS,Medium,Network,2025-11-27,Resolved
+1428,Phishing,Critical,Database,2025-11-28,Open
+1429,Phishing,Critical,Application Server,2025-11-29,Resolved
+1430,Ransomware,Critical,Network,2025-11-30,Open
+1431,Phishing,Low,Web Server,2025-12-01,Resolved
+1432,Phishing,Critical,Application Server,2025-12-02,Resolved
+1433,Ransomware,Medium,Database,2025-12-03,Resolved
+1434,Phishing,High,Application Server,2025-12-04,Open
+1435,Ransomware,High,Database,2025-12-05,Resolved
+1436,Malware,Critical,Web Server,2025-12-06,Open
+1437,Ransomware,Low,Database,2025-12-07,Open
+1438,Phishing,Critical,Database,2025-12-08,Resolved
+1439,SQL Injection,Medium,Web Server,2025-12-09,Resolved
+1440,SQL Injection,High,Network,2025-12-10,Open
+1441,Ransomware,Medium,Database,2025-12-11,Resolved
+1442,SQL Injection,Medium,Web Server,2025-12-12,Open
+1443,SQL Injection,High,Web Server,2025-12-13,Open
+1444,Phishing,Low,Network,2025-12-14,Open
+1445,Malware,Medium,Application Server,2025-12-15,Resolved
+1446,Malware,High,Application Server,2025-12-16,Resolved
+1447,Phishing,Low,Application Server,2025-12-17,Resolved
+1448,Malware,Medium,Network,2025-12-18,Resolved
+1449,Ransomware,Medium,Database,2025-12-19,Resolved
+1450,Malware,Medium,Web Server,2025-12-20,Open
+1451,SQL Injection,Medium,Database,2025-12-21,Open
+1452,Phishing,Critical,Application Server,2025-12-22,Resolved
+1453,DDoS,Low,Application Server,2025-12-23,Open
+1454,SQL Injection,Medium,Web Server,2025-12-24,Open
+1455,SQL Injection,High,Web Server,2025-12-25,Open
+1456,Ransomware,Critical,Database,2025-12-26,Open
+1457,DDoS,High,Database,2025-12-27,Resolved
+1458,Ransomware,High,Application Server,2025-12-28,Resolved
+1459,Phishing,Low,Web Server,2025-12-29,Resolved
+1460,DDoS,High,Web Server,2025-12-30,Open
+1461,Phishing,Critical,Application Server,2025-12-31,Resolved
