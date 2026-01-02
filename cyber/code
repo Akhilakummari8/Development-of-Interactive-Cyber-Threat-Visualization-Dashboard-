@@ -1,0 +1,41 @@
+import pandas as pd
+import plotly.express as px
+import os
+
+file_name = "cyber_incidents.csv"
+
+# Check if the file exists before attempting to load
+if not os.path.exists(file_name):
+    print(f"Error: '{file_name}' not found. Please upload the file to your Colab session.")
+else:
+    df = pd.read_csv(file_name)
+    df["date"] = pd.to_datetime(df["date"])
+
+    # Incidents by Attack Type
+    attack_count = df["attack_type"].value_counts().reset_index()
+    attack_count.columns = ["Attack Type", "Count"]
+
+    fig_attack = px.bar(
+        attack_count,
+        x="Attack Type",
+        y="Count",
+        title="Incidents by Attack Type",
+        color="Attack Type", # Use 'Attack Type' for coloring
+        color_discrete_sequence=px.colors.qualitative.Plotly # Explicitly set a colorful palette
+    )
+    fig_attack.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
