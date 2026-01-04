@@ -1,0 +1,116 @@
+Prompt:provide python program related to it each and every task should be satisfy
+
+Task 1: Load Cyber Threat Dataset
+Objective: Read large dataset for analysis
+import pandas as pd
+# Load dataset
+df = pd.read_csv("large_cyber_threat_incidents.csv")
+# Preview data
+print(df.head())
+print(df.info())
+  
+Task 2: Data Cleaning & Preprocessing
+Objective: Prepare raw data for analysis
+# Convert timestamp to datetime
+df['timestamp'] = pd.to_datetime(df['timestamp'])
+# Remove duplicates
+df.drop_duplicates(inplace=True)
+# Check missing values
+print(df.isnull().sum())
+# Fill missing values if any
+df.fillna({
+    'status': 'Investigating',
+    'severity': df['severity'].median()
+}, inplace=True)
+  
+Task 3: Feature Engineering
+Objective: Extract time-based features
+df['date'] = df['timestamp'].dt.date
+df['hour'] = df['timestamp'].dt.hour
+df['month'] = df['timestamp'].dt.month
+df['year'] = df['timestamp'].dt.year
+
+Task 4: Threat Frequency Analysis
+Objective: Identify most frequent attacks
+attack_counts = df['attack_type'].value_counts()
+print(attack_counts)
+
+Task 5: Severity Analysis
+Objective: Identify high-risk incidents
+# High severity incidents
+high_severity = df[df['severity'] >= 8]
+print("High Severity Incidents:", high_severity.shape[0])
+# Average severity per attack type
+avg_severity = df.groupby('attack_type')['severity'].mean()
+print(avg_severity)
+
+Task 6: Time-Based Trend Analysis
+Objective: Identify attack patterns over time
+daily_trends = df.groupby('date').size()
+monthly_trends = df.groupby('month').size()
+print(daily_trends.head())
+print(monthly_trends)
+
+Task 7: Country-Wise Threat Analysis
+Objective: Detect attack origins
+country_attacks = df['country'].value_counts()
+print(country_attacks)
+
+Task 8: MITRE ATT&CK Technique Analysis
+Objective: Analyze attack techniques
+mitre_counts = df['mitre_technique'].value_counts()
+print(mitre_counts)
+
+Task 9: Incident Status Monitoring
+Objective: Track resolution progress
+status_distribution = df['status'].value_counts()
+print(status_distribution)
+
+Task 10: Visualization – Attack Trends
+Objective: Visual representation
+import matplotlib.pyplot as plt
+attack_counts.plot(kind='bar', title='Attack Type Distribution')
+plt.xlabel('Attack Type')
+plt.ylabel('Count')
+plt.show()
+
+Task 11: Visualization – Severity Distribution
+df['severity'].plot(kind='hist', bins=10, title='Severity Distribution')
+plt.xlabel('Severity Level')
+plt.show()
+
+Task 12: Visualization – Time Series Trend
+daily_trends.plot(figsize=(10,5), title='Daily Cyber Attack Trend')
+plt.xlabel('Date')
+plt.ylabel('Number of Attacks')
+plt.show()
+
+Task 13: Dashboard Creation (Streamlit)
+import streamlit as st
+import plotly.express as px
+st.title("Cyber Threat Visualization Dashboard")
+# Attack Type Chart
+fig1 = px.bar(df, x='attack_type', title='Attack Type Frequency')
+st.plotly_chart(fig1)
+# Severity Chart
+fig2 = px.histogram(df, x='severity', title='Severity Distribution')
+st.plotly_chart(fig2)
+# Country-wise Attacks
+fig3 = px.bar(df, x='country', title='Country-wise Attacks')
+st.plotly_chart(fig3)
+# MITRE Techniques
+fig4 = px.bar(df, x='mitre_technique', title='MITRE ATT&CK Techniques')
+st.plotly_chart(fig4)
+
+Task 14: Export Processed Data
+Objective: Save cleaned data
+df.to_csv("processed_cyber_threat_data.csv", index=False)
+
+Task 15: Performance Metrics
+Objective: Support research evaluation
+print("Total Incidents:", len(df))
+print("High Risk Incidents:", len(high_severity))
+print("Most Common Attack:", attack_counts.idxmax())
+
+
+
