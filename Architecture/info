@@ -1,0 +1,253 @@
+1. High-Level Architecture Overview
+
+The system follows a layered, modular architecture to ensure scalability, security, and real-time visualization.
+
+Data Sources
+     ↓
+Data Ingestion Layer
+     ↓
+Data Processing & Analytics Layer
+     ↓
+Threat Intelligence & Correlation Engine
+     ↓
+Backend Services (API Layer)
+     ↓
+Visualization & Dashboard Layer
+     ↓
+User Interface (Security Analysts)
+
+2. Detailed Architecture Components
+1. Data Sources Layer
+
+Provides raw cybersecurity data.
+
+Sources include:
+
+Firewall logs
+
+IDS/IPS alerts
+
+Server & application logs
+
+Network traffic data
+
+Simulated attack datasets
+
+Threat intelligence feeds (MITRE ATT&CK, CVE, IOC data)
+
+Purpose:
+Collect diverse security events for centralized analysis.
+
+2. Data Ingestion Layer
+
+Responsible for collecting and storing incoming data.
+
+Components:
+
+Log collectors
+
+Event listeners
+
+ETL pipelines
+
+Batch & real-time ingestion modules
+
+Technologies (example):
+
+Python scripts
+
+Logstash / Fluentd (optional)
+
+Scheduled jobs / streaming handlers
+
+Purpose:
+Ensure continuous, reliable data flow into the system.
+
+3. Data Processing & Normalization Layer
+
+Cleans and structures raw data.
+
+Functions:
+
+Data cleaning
+
+Timestamp normalization
+
+Deduplication
+
+Severity classification
+
+IP, port, protocol extraction
+
+Output:
+Structured threat records stored in databases.
+
+4. Threat Intelligence & Correlation Engine
+
+Core analytical layer of the system.
+
+Responsibilities:
+
+Correlate events across sources
+
+Detect attack patterns
+
+Map threats to MITRE ATT&CK techniques
+
+Risk scoring and prioritization
+
+Identify anomaly behaviors
+
+Techniques used:
+
+Rule-based detection
+
+Statistical analysis
+
+Basic machine learning models (optional)
+
+5. Data Storage Layer
+
+Stores processed and historical data.
+
+Databases:
+
+Relational DB (SQLite / PostgreSQL / MySQL)
+
+NoSQL DB (for logs and events)
+
+Time-series storage (optional)
+
+Stored Data:
+
+Threat events
+
+Attack timelines
+
+Risk scores
+
+User actions
+
+Historical trends
+
+6. Backend Services (API Layer)
+
+Acts as the communication bridge between data and UI.
+
+Components:
+
+RESTful APIs
+
+Authentication & authorization
+
+Query handlers
+
+Data aggregation services
+
+Functions:
+
+Fetch dashboard metrics
+
+Filter data by time, severity, attack type
+
+Provide real-time updates to UI
+
+7. Visualization & Dashboard Layer
+
+Transforms data into meaningful visuals.
+
+Visual Elements:
+
+Threat heatmaps
+
+Attack timelines
+
+Severity distribution charts
+
+Geo-location attack maps
+
+Top attackers & targets
+
+Trend analysis graphs
+
+Visualization Libraries:
+
+Plotly
+
+D3.js
+
+Matplotlib / Dash
+
+Chart.js
+
+8. User Interface Layer
+
+End-user interaction point.
+
+Users:
+
+Security analysts
+
+SOC teams
+
+System administrators
+
+Features:
+
+Interactive filters
+
+Drill-down analysis
+
+Real-time alert views
+
+Downloadable reports
+
+Role-based access
+
+3. Security & Access Control Layer (Cross-Cutting)
+
+Applied across all layers.
+
+Includes:
+
+User authentication
+
+Role-based access control (RBAC)
+
+Secure API endpoints
+
+Audit logging
+
+Data encryption (at rest & in transit)
+
+4. Deployment Architecture (Optional)
+Web Browser
+     ↓
+Frontend Server
+     ↓
+Backend API Server
+     ↓
+Analytics Engine
+     ↓
+Database Server
+
+
+Can be deployed as:
+
+Monolithic (academic project)
+
+Microservices (enterprise-ready)
+
+Cloud-based or on-premise
+
+5. Key Architectural Advantages
+
+Modular and scalable
+
+Supports real-time and historical analysis
+
+Easy integration with new data sources
+
+Analyst-friendly visualization
+
+Future-ready for AI/ML enhancements
